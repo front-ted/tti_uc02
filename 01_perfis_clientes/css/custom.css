@@ -1,3 +1,20 @@
-.bg-escuro .bt-tooltip{
-color: #ffff;
+.bg-escuro .bt-tooltip {
+    color: #ffff;
+}
+
+.botao-demografica {
+    background: url('../img/bt_demografica.png');
+    width: 105px;
+    height: 105px;
+    border: unset;
+    position: absolute;
+    left: 4.3%;
+    z-index: 1;
+}
+
+.botao1{
+    position: relative;
+    left: 10%;
+    z-index: 0;
+    margin-top: 3%;
 }
