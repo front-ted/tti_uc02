@@ -1,12 +1,18 @@
-body {
+.bloco1 {
     background: url('../img/bg-lateral-flutuante01.png') left 80% no-repeat fixed,
         url('../img/bg-lateral-flutuante02.png') 100% 40% no-repeat fixed,
+
         url('../img/bg.png') no-repeat fixed !important;
     background-size: 15%, 15%, cover !important;
 }
 
+
 .bg-escuro .bt-tooltip {
     color: #ffff;
+}
+
+.bg-escuro .marcador-numeral li{
+    color: #fff;
 }
 
 .hvr-sweep-to-right:active,
@@ -15,22 +21,44 @@ body {
     color: #fff !important;
 }
 
-.postits {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.painel-1 {
+    background: url('../img/painel-clicavel-img.png');
+    width: 425px;
+    height: 356px;
 }
 
-.postit {
-    height: 238px;
-    width: 227px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 10px 10px 20px;
-    font-weight: bolder;
-    background: url('../img/postit.png') no-repeat;
+.botao-1 {
+    position: absolute;
+    left: 24%;
+    margin-top: 3%;
 }
+
+.botao-2 {
+    position: absolute;
+    left: 30%;
+    margin-top: 32%;
+}
+
+.botao-3 {
+    position: absolute;
+    left: 74%;
+    margin-top: 3%;
+}
+
+.botao-4 {
+    position: absolute;
+    left: 70%;
+    margin-top: 14%;
+    right: 3%;
+    padding: 10px 20px;
+}
+
+.botao-5 {
+    position: absolute;
+    left: 74%;
+    margin-top: 28%;
+}
+
 
 .painel-gaitinha-mob {
     display: none;
