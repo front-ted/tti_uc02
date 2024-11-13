@@ -80,6 +80,43 @@ body {
     display: block;
 }
 
+.infografico-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.info-1 {
+    height: 266px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px 44px 10px 215px;
+    background: url('../img/infografico_desk01.png') no-repeat;
+}
+
+.info-2 {
+    height: 266px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px 44px 10px 215px;
+    background: url('../img/infografico_desk02.png') no-repeat;
+}
+
+.info-3 {
+    height: 266px;
+    width: 901px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 43px 44px 10px 215px;
+    background: url('../img/infografico_desk03.png') no-repeat;
+}
+
 
 
 
@@ -101,7 +138,70 @@ body {
     }
 }
 
-@media screen and (max-width:820px) {}
+@media screen and (max-width:820px) {
+
+    .info-1 {
+        height: 207px;
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 44px 10px 157px;
+        background: url('../img/infografico_desk01tablet1.png') no-repeat;
+    }
+
+    .info-2 {
+        height: 207px;
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 56px 4px 25px 149px;
+        background: url('../img/infografico_desk02t2.png') no-repeat;
+    }
+
+    .info-3 {
+        height: 207px;
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 44px 10px 157px;
+        background: url('../img/infografico_desk03t3.png') no-repeat;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+
+
+
+}
 
 
 
@@ -112,6 +212,38 @@ body {
         align-items: center;
         gap: 2rem;
     }
+
+    .info-1 {
+        height: 509px;
+        width: 306px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 131px 28px 1px 28px;
+        background: url('../img/infografico_mobile01.png') no-repeat;
+    }
+
+    .info-2 {
+        height: 582px;
+        width: 306px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 102px 25px 0px 25px;
+        background: url('../img/infografico_mobile02.png') no-repeat;
+    }
+
+    .info-3 {
+        height: 509px;
+        width: 306px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 131px 28px 1px 28px;
+        background: url('../img/infografico_mobile03.png') no-repeat;
+    }
+
+
 
 
 
