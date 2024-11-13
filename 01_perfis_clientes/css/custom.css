@@ -25,7 +25,6 @@ body {
     text-align: center;
     position: relative;
     font-weight: bold;
-
 }
 
 .btn-image {
@@ -118,9 +117,19 @@ body {
 }
 
 
+.bg-escuro figcaption,
+.bg-escuro .tab-content,
+.bg-escuro .modal-body * {
+    color: #000;
+}
 
+.bg-escuro .infografico-1 p{
+    color: #000;
+}
 
-
+.bg-escuro .accordion-body p{
+    color: #000 !important;
+}
 
 
 @media screen and (max-width:1024px) {
@@ -170,39 +179,7 @@ body {
         background: url('../img/infografico_desk03t3.png') no-repeat;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-@media screen and (max-width:768px) {
-
-
-
-
-
-}
-
 
 
 @media screen and (max-width:480px) {
@@ -243,10 +220,4 @@ body {
         background: url('../img/infografico_mobile03.png') no-repeat;
     }
 
-
-
-
-
 }
-
-@media screen and (max-width:375px) {}
