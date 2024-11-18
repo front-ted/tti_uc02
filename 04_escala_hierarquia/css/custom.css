@@ -3,15 +3,52 @@ body {
         url('../img/bg-flutuante02.png') 100% 150% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
     background-size: 15%, 15%, cover !important;
-    
+
 }
 
 .letra-menor {
     font-size: 0.7em;
 }
 
-.text-maslow{
+.text-maslow {
     margin-top: 15%;
+}
+
+.painel-piramide {
+    background: url('../img/painel01.png') no-repeat;
+    width: 572px;
+    height: 559px;
+    margin: auto;
+}
+
+.botao-basicas {
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 6%;
+}
+
+.botao-psico {
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 23%;
+    border-color: #fc9d49;
+    color: #fc9d49;
+}
+
+.botao-psico.hvr-sweep-to-right:before {
+    background-color: #fc9d49;
+}
+
+.botao-autorrealizacao{
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 40%;
+    border-color: #004787;
+    color: #004787;
+}
+
+.botao-autorrealizacao.hvr-sweep-to-right:before {
+    background-color: #004787;
 }
 
 .bg-escuro .bt-tooltip {
