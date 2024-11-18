@@ -1,11 +1,39 @@
 .bloco1 {
-    background: url('../img/bg-lateral-flutuante01.png') left 80% no-repeat fixed,
-        url('../img/bg-lateral-flutuante02.png') 100% 40% no-repeat fixed,
-
+    background: url('../img/flutuante-05.png') left 32% no-repeat,
+        url('../img/flutuante-04.png') 100% 3% no-repeat,
+        url('../img/flutuante-07.png') left 97% no-repeat,
+        url('../img/flutuante-06.png') 100% 62% no-repeat,
         url('../img/bg.png') no-repeat fixed !important;
-    background-size: 15%, 15%, cover !important;
+    background-size: 15%, 15%, 15%, 15%, cover !important;
 }
 
+.bloco2 {
+    background:
+        url('../img/flutuante-08.png') 100% 92% no-repeat,
+        url('../img/bg-03.jpg') no-repeat !important;
+    background-size: 15%, cover !important;
+    padding-bottom: 10%;
+}
+
+.bloco3 {
+    background:
+        url('../img/flutuante-04.png') left 92% no-repeat,
+        #004787;
+    background-size: 15%, cover !important;
+    padding-bottom: 10%;
+}
+
+.divisor-azul {
+    margin-top: -5%;
+}
+
+.bloco3 p {
+    color: #fff;
+}
+
+.bloco3 h3 {
+    color: #fff;
+}
 
 .bg-escuro .bt-tooltip {
     color: #ffff;
@@ -88,7 +116,7 @@
     color: #000 !important;
 }
 
-.selo{
+.selo {
     width: 357px;
     height: 359px;
     transform: scale(0.5);
@@ -96,23 +124,55 @@
     margin-bottom: -80px;
 }
 
-.divisor-branco{
+.divisor-branco {
     margin-top: -5%;
 }
 
-.espaco{
+.espaco {
     margin-bottom: 15%;
 }
 
-.bloco2{
-    padding: 0px 0;
+.infografico-1 {
+    position: relative;
+    background-image: url('../img/notepad_ruido.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 50px 25px 25px 69px;
+    margin: auto;
+    border: 20px solid #a4c4e4;
+    outline: 5px solid #d9eaf4;
 }
 
+.infografico-1::before {
+    content: '';
+    position: absolute;
+    top: 5%;
+    bottom: 3%;
+    left: -5%;
+    width: 90px;
+    height: 87%;
+    background-image: url('../img/notepad_espiral.png');
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+
 @media screen and (max-width:1024px) {
-/*     body {
+
+    .bloco1 {
         background: url('../img/bg.png') no-repeat fixed !important;
+    }
+
+    .bloco2 {
+        background: url('../img/bg-03.jpg') no-repeat !important;
+    }
+
+    .bloco3 {
+        background: #004787;
         background-size: cover !important;
-    } */
+    }
 }
 
 @media screen and (max-width:820px) {
@@ -153,17 +213,20 @@
         margin-top: 30%;
     }
 
+    .infografico-1::before {
+        content: '';
+        position: absolute;
+        top: 1%;
+        bottom: 3%;
+        left: -13%;
+        width: 80px;
+        height: 98%;
+    }
 
-
-
-
-
-
-
-
+    .infografico-1 {
+        padding: 25px 15px 19px 20px;
+    }
 }
-
-
 
 @media screen and (max-width: 768px) {
     .botao-4 {
@@ -185,13 +248,6 @@
         left: 59%;
         margin-top: 34%;
     }
-
-
-
-
-
-
-
 }
 
 @media screen and (max-width:480px) {
@@ -223,5 +279,34 @@
         margin-top: 10px;
     }
 
+    .infografico-1::before {
+        content: '';
+        position: absolute;
+        top: 1%;
+        bottom: 3%;
+        left: -17%;
+        width: 80px;
+        height: 96%;
+    }
 
+    .infografico-1 {
+        padding: 25px 9px 14px 8px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .infografico-1::before {
+        content: '';
+        position: absolute;
+        top: 2%;
+        bottom: 3%;
+        left: -17%;
+        width: 66px;
+        height: 95%;
+    }
+
+    .infografico-1 {
+        padding: 25px 6px 14px 1px;
+    }
 }
