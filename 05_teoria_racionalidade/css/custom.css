@@ -1,29 +1,33 @@
 body {
-    background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
-        url('../img/bg-flutuante02.png') 100% 96% no-repeat fixed,
+    background: url('../img/bg-flutuante2.png') left 98% no-repeat fixed,
+        url('../img/bg-flutuante1.png') 100% 13% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
     background-size: 15%, 15%, cover !important;
 
 }
 
-.card-1{
+.card-1 {
     padding: 165px 15px 15px 15px;
 }
 
-.card-2{
+.card-2 {
     padding: 15px 15px 15px 15px;
 }
 
-.card-3{
+.card-3 {
     padding: 5px 1px 1px 1px;
 }
 
-.card-3 p{
+.card-3 p {
     font-size: 0.9em;
 }
 
 .bg-escuro .bt-tooltip {
     color: #ffff;
+}
+
+.bg-escuro .flip-card p {
+    color: #000;
 }
 
 .hvr-sweep-to-right:active,
@@ -57,8 +61,6 @@ body {
 }
 
 @media screen and (max-width:820px) {
-
-
     .paginas {
         overflow-x: hidden !important;
     }
