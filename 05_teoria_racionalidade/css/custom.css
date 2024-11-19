@@ -180,6 +180,8 @@ body {
 }
 
 /* linha do tempo */
+
+
 /* infografico */
 
 
@@ -188,7 +190,10 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     gap: 20px;
-    padding: 0px;
+}
+
+.infografico p {
+    font-size: 17px;
 }
 
 .bloco-info {
@@ -197,6 +202,7 @@ body {
     text-align: center;
     border: 3px solid #a0c3e7;
     overflow: hidden;
+    width: 100%;
 }
 
 .imagem {
@@ -206,8 +212,11 @@ body {
     background-position: center;
 }
 
+.texto {
+    padding: 1px;
+}
 
-.texto h3 {
+.texto h5 {
     color: #0056b3;
     margin: 10px 0;
 }
@@ -225,12 +234,17 @@ body {
 .bloco-info:nth-child(2) {
     grid-column: 1;
     grid-row: 2;
+    margin-top: 24%;
+    height: 288px;
 }
 
 .bloco-info:nth-child(3) {
     grid-column: 2;
     grid-row: 2;
-    justify-self: center;
+    align-self: center;
+    /* Centraliza verticalmente */
+    margin: -150% auto 0 0;
+    position: relative;
 }
 
 .bloco-info:nth-child(4) {
@@ -241,47 +255,42 @@ body {
 .bloco-info:nth-child(5) {
     grid-column: 3;
     grid-row: 2;
+    margin-top: 24%;
 }
 
 .bloco-info:nth-child(6) {
     grid-column: 4;
     grid-row: 2;
-    justify-self: center;
+    align-self: center;
+    margin: -150% auto 0 0;
 }
 
-/* Responsivo */
-/* @media (max-width: 768px) {
-    .infografico {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto auto auto auto;
-    }
-  
-    .bloco:nth-child(1),
-    .bloco:nth-child(2) {
-      grid-column: 1;
-    }
-  
-    .bloco:nth-child(3),
-    .bloco:nth-child(4) {
-      grid-column: 2;
-    }
-  
-    .bloco:nth-child(5),
-    .bloco:nth-child(6) {
-      grid-column: 1 / span 2;
-      justify-self: center;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .infografico {
-      grid-template-columns: 1fr;
-    }
-  
-    .bloco {
-      grid-column: 1;
-    }
-  } */
+.infografico-mob {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.infografico p {
+    font-size: 17px;
+}
+
+.bloco-info-mob {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #a0c3e7;
+    overflow: hidden;
+    width: 100%;
+}
+
+.imagem-mob {
+    width: 100%;
+    height: 204px;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -304,7 +313,9 @@ body {
 
 
 
-
+@media screen and (min-width:1025px) {
+    .infografico-mob{display: none;}
+}
 
 
 
@@ -315,7 +326,10 @@ body {
         overflow-x: hidden;
     }
 
+    .infografico{display: none;}
 }
+
+
 
 @media screen and (max-width:820px) {
     .paginas {
@@ -352,11 +366,20 @@ body {
     }
 
 
+
+
 }
 
 @media screen and (max-width:768px) {}
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+    .infografico-mob {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        gap: 20px;
+    }
+}
 
 @media screen and (max-width:414px) {}
 
