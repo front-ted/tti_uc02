@@ -50,6 +50,263 @@ body {
     color: #000 !important;
 }
 
+/* linha do tempo */
+.timeline {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 25% 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 77%;
+    background-color: #d2d2d2;
+    top: 7%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin: -6px 0;
+    position: relative;
+}
+
+.step1 {
+    display: flex;
+    align-items: center;
+    margin: -3% 0;
+    position: relative;
+}
+
+.step2 {
+    display: flex;
+    align-items: center;
+    margin: -20% 0;
+    position: relative;
+}
+
+.step3 {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+    position: relative;
+}
+
+.step4 {
+    display: flex;
+    align-items: center;
+    margin: -5.6% 0;
+    position: relative;
+}
+
+.step5 {
+    display: flex;
+    align-items: center;
+    margin: -17% 0;
+    position: relative;
+}
+
+.circle {
+    width: 149px;
+    height: 148px;
+    border: 5px solid #a0c3e7;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #4a4a4a;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.content {
+    background-color: #e1eaf4;
+    border-radius: 60px;
+    padding: 20px 4px 0px 15px;
+    width: 55%;
+    text-align: left;
+    position: relative;
+}
+
+.content.left {
+    margin-right: auto;
+    margin-left: calc(50% + 75px);
+}
+
+.content.right {
+    margin-left: auto;
+    margin-right: calc(50% + 75px);
+}
+
+.content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: unset;
+    color: #004787;
+}
+
+.content p {
+    font-size: 17px;
+}
+
+.mtop {
+    margin-top: 5%;
+    position: relative;
+}
+
+.numeros-linha {
+    font-size: 50px !important;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30%;
+    color: #004787;
+}
+
+.passos {
+    font-size: 24px !important;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 14%;
+    color: #004787;
+}
+
+/* linha do tempo */
+/* infografico */
+
+
+.infografico {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 0px;
+}
+
+.bloco-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #a0c3e7;
+    overflow: hidden;
+}
+
+.imagem {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.texto h3 {
+    color: #0056b3;
+    margin: 10px 0;
+}
+
+.texto p {
+    color: #333;
+}
+
+/* Posicionamento personalizado */
+.bloco-info:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.bloco-info:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.bloco-info:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.bloco-info:nth-child(4) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.bloco-info:nth-child(5) {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.bloco-info:nth-child(6) {
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: center;
+}
+
+/* Responsivo */
+/* @media (max-width: 768px) {
+    .infografico {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto auto auto;
+    }
+  
+    .bloco:nth-child(1),
+    .bloco:nth-child(2) {
+      grid-column: 1;
+    }
+  
+    .bloco:nth-child(3),
+    .bloco:nth-child(4) {
+      grid-column: 2;
+    }
+  
+    .bloco:nth-child(5),
+    .bloco:nth-child(6) {
+      grid-column: 1 / span 2;
+      justify-self: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .infografico {
+      grid-template-columns: 1fr;
+    }
+  
+    .bloco {
+      grid-column: 1;
+    }
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1024px) {
     body {
@@ -65,6 +322,34 @@ body {
         overflow-x: hidden !important;
     }
 
+    .step,
+    .step1,
+    .step2,
+    .step3,
+    .step4,
+    .step5 {
+        flex-direction: column;
+        text-align: center;
+        margin: 6% 0;
+    }
+
+    .circle {
+        position: relative;
+        left: 0;
+        transform: none;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content.left,
+    .content.right {
+        margin: 0 auto;
+
+    }
 
 
 }
