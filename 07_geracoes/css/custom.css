@@ -1,0 +1,333 @@
+body {
+    background:
+        url('../img/bg.png') no-repeat fixed !important;
+    background-size:cover !important;
+}
+
+.card-1 {
+    padding: 165px 15px 15px 15px;
+}
+
+.card-2 {
+    padding: 65px 15px 15px 15px;
+}
+
+.bg-escuro .bt-tooltip {
+    color: #ffff;
+}
+
+.hvr-sweep-to-right:active,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:hover {
+    color: #fff !important;
+}
+
+.bg-escuro .tab-content,
+.bg-escuro .modal-body * {
+    color: #000;
+}
+
+.bg-escuro .infografico-1 p {
+    color: #000;
+}
+
+.bg-escuro .accordion-body p {
+    color: #000 !important;
+}
+
+.bg-escuro .flip-card p {
+    color: #000;
+}
+
+.painel-gaitinha-mob {
+    display: none;
+}
+
+.painel-abas-desk {
+    display: block;
+}
+
+.bloco-paralax {
+    width: 100%;
+    height: 400px;
+    background: url('../img/bg-parallax01.jpg');
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+.bloco-paralax-1 {
+    width: 100%;
+    height: 400px;
+    background: url('../img/bg-parallax02.jpg');
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+.bloco-paralax-2 {
+    width: 100%;
+    height: 400px;
+    background: url('../img/bg-parallax03.jpg');
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+/* infografico */
+
+.infografico-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+.text {
+    flex: 1;
+    padding: 21px;
+    color: #fff;
+}
+
+.text.generation-x {
+    padding: 36px;
+}
+
+.text.generation-z {
+    padding: 6px;
+}
+
+.text h4 {
+    margin: 0 0 50px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.baby-boomers {
+    background-color: #f09843;
+}
+
+.generation-x {
+    background-color: #154478;
+}
+
+.millennials {
+    background-color: #819db9;
+}
+
+.generation-z {
+    background-color: #f09843;
+}
+
+.infografico-1 img {
+    flex: 1;
+    max-width: 50%;
+    object-fit: cover;
+}
+
+.mtop {
+    margin-top: 15%;
+}
+
+/* infografico */
+
+.painel-1 {
+    background: url('../img/painel-clicavel.png');
+    width: 901px;
+    height: 474px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.botao-1 {
+    position: absolute;
+    left: 8%;
+    margin-top: 3%;
+    border-color: #004787;
+    color: #004787;
+}
+
+.botao-2 {
+    position: absolute;
+    left: 60%;
+    margin-top: -3%;
+    border-color: #fc9d49;
+    color: #fc9d49;
+}
+
+.botao-3 {
+    position: absolute;
+    left: 78%;
+    margin-top: 37%;
+}
+
+.botao-4 {
+    position: absolute;
+    left: 44%;
+    margin-top: 46%;
+    border-color: #fc9d49;
+    color: #fc9d49;
+}
+
+.botao-4.hvr-sweep-to-right:before {
+    background-color: #fc9d49;
+}
+
+.botao-2.hvr-sweep-to-right:before {
+    background-color: #fc9d49;
+}
+
+.botao-1.hvr-sweep-to-right:before {
+    background-color: #004787;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    body {
+        background: url('../img/bg.png') no-repeat fixed !important;
+        background-size: cover !important;
+        overflow-x: hidden;
+    }
+
+    .painel-gaitinha-mob {
+        display: block;
+    }
+
+    .painel-abas-desk {
+        display: none;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .paginas {
+        overflow-x: hidden !important;
+    }
+
+    .section,
+    .section.reverse {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .text.generation-x {
+        padding: unset;
+    }
+
+    .text.generation-z {
+        padding: unset;
+    }
+
+    .text {
+        width: 470px;
+        height: 320px;
+    }
+
+    .painel-1 {
+        background-size: 75%;
+        background-repeat: no-repeat;
+    }
+
+    .botao-4 {
+        position: absolute;
+        left: 44%;
+        margin-top: 40%;
+        border-color: #fc9d49;
+        color: #fc9d49;
+    }
+
+    .botao-3 {
+        position: absolute;
+        left: 70%;
+        margin-top: 33%;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .botao-4 {
+        position: absolute;
+        left: 44%;
+        margin-top: 43%;
+        border-color: #fc9d49;
+        color: #fc9d49;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .mt-5 {
+        margin-top: unset !important;
+    }
+
+    .text {
+        width: 369px;
+        height: 320px;
+    }
+
+    .painel-1 {
+        background-size: 40%;
+        background-repeat: no-repeat;
+        height: 260px;
+    }
+
+    .botao-4 {
+        position: absolute;
+        left: 7%;
+        margin-top: 32%;
+        border-color: #fc9d49;
+        color: #fc9d49;
+    }
+
+    .botao-3 {
+        position: absolute;
+        left: 60%;
+        margin-top: 33%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .text {
+        width: 355px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .text {
+        width: 316px;
+        height: 320px;
+    }
+}
