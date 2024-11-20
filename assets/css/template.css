@@ -20,6 +20,11 @@
     src: url("../fonts/Italiana-Regular.ttf");
 }
 
+@font-face {
+    font-family: "figtre-regular";
+    src: url("../fonts/Courgette-Regular.ttf");
+}
+
 body {
     position: relative;
     height: auto;
