@@ -30,9 +30,31 @@
     font-weight: normal;
 }
 
-.divisoria{
+.divisoria {
     background: url('img/slideshow_div.png');
     width: 44px;
     height: 14px;
     margin: auto
+}
+
+@media screen and (max-width: 820px) {
+    .carousel-inner {
+        transform: scale(0.8);
+        margin-left: -4%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-inner {
+        transform: scale(0.8);
+        margin-left: -10%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .carousel-inner {
+        transform: scale(0.5);
+        margin-left: -10%;
+    }
 }
