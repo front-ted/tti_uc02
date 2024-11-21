@@ -52,7 +52,7 @@
         <div class="layer-preta no-print"></div>
         <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
         <section class="paginas">
-            <div class="pagina">
+            <div class="pagina pagina1">
                 <div class="painel-imobiliaria">
                     <div class="titulo">
                         <h2>Técnicas de atendimento:</h2>
@@ -76,11 +76,63 @@
                     <a href="botao-7/index.html" class="botao-x check botao-7" target="_blank">
                     </a>
                 </div>
+                <div class="conteudo-impressao visually-hidden print">
+                    <div class="botao-conteudo" id="conteudo-botao-1">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                    </div>
+                    <div class="botao-conteudo" id="conteudo-botao-2">
+                        <h3>Conteúdo do Botão 2</h3>
+                        <p>Conteúdo detalhado para o botão 2...</p>
+                    </div>
+                    <!-- Adicione mais conteúdo conforme necessário -->
+                </div>
+            </div>
             </div>
 
+
+
+
             </div>
+            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
+
+
         </section>
-        <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Paginação-->
         <!-- <footer class="text-center no-print d-flex justify-content-center mx-auto">
             <ul class="pagination">
@@ -116,26 +168,6 @@
         });
     </script>
 
-    <script>
-        window.addEventListener('load', function () {
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl)
-            })
-
-            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-                return new bootstrap.Popover(popoverTriggerEl)
-            })
-
-            $('.preloader').fadeOut(300);
-
-            $('.botao-x').click(function () {
-                $(this).addClass('visitado');
-            });
-        })
-
-    </script>
 
     <!-- Handtalk -->
     <script>

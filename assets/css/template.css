@@ -25,6 +25,11 @@
     src: url("../fonts/Courgette-Regular.ttf");
 }
 
+@font-face {
+    font-family: "playball-regular";
+    src: url("../fonts/Playball-Regular.ttf");
+}
+
 body {
     position: relative;
     height: auto;

@@ -1,0 +1,38 @@
+.bloco1 {
+    background: url('img/bg_flutuante2A.png') left 42% no-repeat,
+        url('img/bg_flutuante2B.png') 100% 3% no-repeat,
+        url('../img/bg.png') no-repeat fixed !important;
+    background-size: 15%, 15%, cover !important;
+}
+
+.bg-imagem {
+    background: url('img/slideshow_bg.png');
+    width: 846px;
+    height: 1099px;
+    padding: 108px 100px 100px 120px;
+}
+
+.carousel-inner p {
+    font-family: "figtre-regular";
+    font-size: 16pt;
+    padding-left: 50px;
+}
+
+.carousel-inner i {
+    font-family: "figtre-regular";
+}
+
+.carousel-inner h5 {
+    margin-top: unset;
+    margin-bottom: unset;
+    font-family: "playball-regular";
+    font-size: 25pt;
+    font-weight: normal;
+}
+
+.divisoria{
+    background: url('img/slideshow_div.png');
+    width: 44px;
+    height: 14px;
+    margin: auto
+}
