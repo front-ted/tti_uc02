@@ -365,7 +365,10 @@
     display: none;
 }
 
-
+.titulos-sociais{
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 
 
@@ -390,18 +393,22 @@
 
 
 @media print {
-
-    /* Exibir o conteúdo dos botões na impressão */
     .conteudo-impressao {
         display: block;
         margin-top: 20px;
     }
 
-    /* Ocultar os botões na impressão */
     .botao-x {
         display: none;
     }
+
+    .titulos-sociais{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
 }
+
 
 @media screen and (max-width:1440px) {
     .painel-imobiliaria {

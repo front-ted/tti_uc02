@@ -50,6 +50,14 @@ body {
     font-family: "figtre-regular";
 }
 
+.bg-escuro .postits p{
+    color: #000;
+}
+
+.bg-escuro .postits2 p{
+    color: #000;
+}
+
 .postits2 {
     display: flex;
     justify-content: space-evenly;

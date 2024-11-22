@@ -9,23 +9,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS v5.0.2 -->
-    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/fa/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/fa/css/all.min.css">
     <!-- Animate.css -->
-    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../../assets/css/animate.min.css" />
     <!-- hover.css https://ianlunn.github.io/Hover/ -->
-    <link rel="stylesheet" href="../assets/css/hover-min.css" />
+    <link rel="stylesheet" href="../../assets/css/hover-min.css" />
     <!--Splide - slideshow-->
-    <link rel="stylesheet" href="../assets/css/splide.min.css">
+    <link rel="stylesheet" href="../../assets/css/splide.min.css">
     <!-- Preloader -->
-    <link rel="stylesheet" href="../assets/css/preloader.css">
+    <link rel="stylesheet" href="../../assets/css/preloader.css">
     <!-- Áudio customizado -->
-    <link rel="stylesheet" href="../assets/css/player.css">
+    <link rel="stylesheet" href="../../assets/css/player.css">
     <!-- Estilos do template -->
-    <link rel="stylesheet" href="../assets/css/cores.css">
-    <link rel="stylesheet" href="../print/print/print.css">
-    <link rel="stylesheet" href="../assets/css/template.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../../assets/css/cores.css">
+    <link rel="stylesheet" href="../../print/print/print.css">
+    <link rel="stylesheet" href="../../assets/css/template.css">
+    <link rel="stylesheet" href="custom.css">
 
 </head>
 
@@ -36,7 +36,7 @@
         <p>Aguarde enquanto o conteúdo é carregado.</p>
     </div>
     <!-- Marca d'água OBRIGATÓRIA -->
-    <img src="../assets/images/logo_senac_colorido.png" id="marcadaguaLogo">
+    <img src="../../assets/images/logo_senac_colorido.png" id="marcadaguaLogo">
 
     <header id="topo">
         <div class="topo-logo">
@@ -53,13 +53,18 @@
         <!-- Section .paginas OBRIGATÓRIA para funcionamento da paginação e do print -->
         <section class="paginas">
             <div class="pagina">
-
-
-
-
-                
+                <div class="container">
+                    <h2>Simulador de atendimento <i>on-line</i></h2>
+                    <p>Que tal testar seus conhecimentos? Acesse o simulador de atendimento on-line e pratique o que
+                        aprendeu. </p>
+                    <p>Espera para ODA:</p>
+                    <img src="img/simulador.jpg" class="img-fluid d-block mx-auto p-2 mb-3">
+                </div>
             </div>
-            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../assets/images/bt_topo.svg"></a>
+            <a href="#" class="voltar-topo no-print" aria-hidden="true"><img src="../../assets/images/bt_topo.svg"></a>
+            </div>
+            </div>
+
             </div>
         </section>
         <!-- Paginação-->
@@ -70,17 +75,17 @@
         </footer> -->
     </section>
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
     <!--Jquery-->
-    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../../assets/js/jquery-3.6.0.min.js"></script>
     <!--Áudio customizado-->
-    <script src="../assets/js/audio-player.js"></script>
+    <script src="../../assets/js/audio-player.js"></script>
     <!--Splide - slideshow-->
-    <script src="../assets/js/splide.min.js"></script>
+    <script src="../../assets/js/splide.min.js"></script>
     <!--Prog'n'roll - barra de progresso conforme rola a página-->
-    <script src="../assets/js/prognroll.min.js"></script>
+    <script src="../../assets/js/prognroll.min.js"></script>
     <!--Scripts gerais-->
-    <script src="../assets/js/geral.js"></script>
+    <script src="../../assets/js/geral.js"></script>
 
     <script>
         var splide = new Splide('.splide', {
@@ -95,6 +100,19 @@
         $(function () {
             $("body").prognroll();
         });
+    </script>
+
+    <script>
+        function toggleBackgroundImage() {
+            var button = document.getElementById('toggleButton');
+            isDarkMode = !isDarkMode; // Alternar entre escuro e claro
+
+            if (isDarkMode) {
+                button.style.backgroundImage = "url('../../assets/images/modo_escuro.svg')";
+            } else {
+                button.style.backgroundImage = "url('../../assets/images/modo_claro.svg')";
+            }
+        }
     </script>
 
     <!-- Handtalk -->
