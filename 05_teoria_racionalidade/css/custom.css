@@ -50,6 +50,26 @@ body {
     color: #000 !important;
 }
 
+.bg-escuro .content p{
+    color: #000;
+}
+
+.bg-escuro .passos{
+    color: #000;
+}
+
+.bg-escuro .numeros-linha{
+    color: #000;
+}
+
+.bg-escuro .bloco-info p{
+    color: #fff;
+}
+
+.bg-escuro .bloco-info h5{
+    color: #fff;
+}
+
 /* linha do tempo */
 .timeline {
     position: relative;
