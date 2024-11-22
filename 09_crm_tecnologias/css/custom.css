@@ -1,10 +1,8 @@
 body {
-    background: url('../img/flutuante-05.png') left 32% no-repeat,
-        url('../img/flutuante-04.png') 100% 3% no-repeat,
-        url('../img/flutuante-07.png') left 97% no-repeat,
-        url('../img/flutuante-06.png') 100% 62% no-repeat,
+    background: url('../img/bg-flutuante1.png') left 12% no-repeat fixed,
+        url('../img/bg-flutuante2.png') 96% 93% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
-    background-size: 15%, 15%, 15%, 15%, cover !important;
+    background-size: 13%, 13%, cover !important;
 }
 
 .bg-escuro .bt-tooltip {
