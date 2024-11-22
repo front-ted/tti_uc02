@@ -301,56 +301,6 @@
 
 /* mobile - ipad, smartphone, tablet */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.bloco2 {
-    background:
-        url('../img/flutuante-08.png') 100% 25% no-repeat,
-        url('../img/flutuante-04.png') left 70% no-repeat,
-        url('../img/bg-03.jpg') bottom no-repeat !important;
-    background-size: 15%, 15%, 100% !important;
-    padding-bottom: 10%;
-}
-
-.bloco3 {
-    background: #004787;
-    background-size: cover !important;
-}
-
-.divisor-azul {
-    margin-top: -5%;
-} 
-
-.bloco3 p {
-    color: #fff;
-}
-
-.bloco3 h3 {
-    color: #fff;
-}*/
-
 .bg-escuro .bt-tooltip {
     color: #ffff;
 }

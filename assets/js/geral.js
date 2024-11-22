@@ -11,7 +11,7 @@ window.addEventListener('load', function(){
 
     $('.preloader').fadeOut(300);
 
-    $('.botao-x').click(function(){
+    $('.botao').click(function(){
       $(this).addClass('visitado');
     });
 })

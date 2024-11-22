@@ -1,12 +1,12 @@
 .bloco1 {
     background: url('img/bg_flutuante2A.png') left 42% no-repeat,
         url('img/bg_flutuante2B.png') 100% 3% no-repeat,
-        url('../img/bg.png') no-repeat fixed !important;
+        url('img/bg.png') no-repeat fixed !important;
     background-size: 15%, 15%, cover !important;
 }
 
 .bg-imagem {
-    background: url('img/slideshow_bg.png');
+    background: url('img/slideshow_bg.png') no-repeat;
     width: 846px;
     height: 1099px;
     padding: 108px 100px 100px 120px;
@@ -16,6 +16,14 @@
     font-family: "figtre-regular";
     font-size: 16pt;
     padding-left: 50px;
+}
+
+.bg-escuro .carousel-inner p {
+    color: #000;
+}
+
+.bg-escuro .carousel-inner h5 {
+    color: #000;
 }
 
 .carousel-inner i {
@@ -37,8 +45,32 @@
     margin: auto
 }
 
+.bg-escuro .carousel-control-prev {
+    background-color: transparent !important;
+}
+
+.bg-escuro .carousel-control-next{
+    background-color: transparent !important;
+}
+
+.btn-tema_pagina {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    z-index: 900;
+    right: 50px;
+    bottom: 110px;
+    cursor: pointer;
+    transition: all 0.4s;
+    background: url('../../assets/images/modo_escuro.svg');
+    background-position: center;
+    background-size: 100%;
+    display: block;
+}
+
+
 @media screen and (max-width: 820px) {
-    .carousel-inner {
+    .carousel {
         transform: scale(0.8);
         margin-left: -4%;
     }
@@ -47,19 +79,29 @@
         background: url('../img/bg.png') no-repeat fixed !important;
         background-size: cover !important;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
-    .carousel-inner {
+    .carousel {
         transform: scale(0.8);
         margin-left: -10%;
+    }
+    .voltar-topo {
+         bottom: 50px;
     }
 }
 
 
-@media screen and (max-width: 480px) {
-    .carousel-inner {
-        transform: scale(0.5);
-        margin-left: -10%;
+@media screen and (min-width: 500px) {
+    .mobile-texto {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .carousel-desk {
+        display: none;
     }
 }
