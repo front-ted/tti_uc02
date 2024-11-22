@@ -40,67 +40,70 @@ body {
     display: block;
 }
 
-.postits {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.card-redes {
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 141px 46px 78px;
+    max-width: 1570px;
+    margin: 20px auto;
+    margin-left: -52%;
+    position: absolute;
+    padding-left: 52%;
 }
 
-.postits p {
-    font-family: "figtre-regular";
-}
-
-.postits2 {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-}
-
-.postits2 p {
-    font-family: "figtre-regular";
-}
-
-.postit1 {
-    height: 299px;
-    width: 309px;
+.card-header-redes {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 37px 61px 10px 10px;
-    background: url('img/postit_1.png') no-repeat;
+    gap: 10px;
 }
 
-.postit2 {
-    height: 310px;
-    width: 325px;
+.card-header-redes .linkedin {
+    width: 206px;
+    height: 149px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 40px 43px 10px 33px;
-    background: url('img/postit_2.png') no-repeat;
-}
-
-.postit3 {
-    height: 277px;
-    width: 275px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 40px 43px 10px 33px;
-    background: url('img/postit_3.png') no-repeat;
-    gap: 20px;
 }
 
-@media screen and (max-width: 1050px) {
-
-    .postits2 {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        gap: 35px;
-    }
-
+.card-header-redes img {
+    width: 206px;
+    height: 149px;
 }
+
+.card-redes h4 {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.card-header-redes .line {
+    width: 693px;
+    height: 3px;
+    background: linear-gradient(to right, #004787, #91ABCD);
+    border-radius: 2px;
+    margin-top: 5%;
+    margin-left: -13%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1050px) {}
 
 
 
