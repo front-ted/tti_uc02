@@ -1,4 +1,4 @@
-.pagina1 {
+.painel-imobiliaria {
     background: url('../img/bg_capa.jpg') no-repeat;
     width: 1920px;
     height: 1080px;
@@ -143,6 +143,184 @@
     font-weight: normal;
 }
 
+/* mobile - ipad, smartphone, tablet */
+
+.painel-imobiliaria-mob {
+    background: url('../img/capa_mob_smart.jpg') no-repeat;
+    width: 430px;
+    height: 2222px;
+}
+
+.botao-x {
+    filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.5));
+}
+
+.botao-1-mob {
+    background: url(../img/bt1.png) no-repeat;
+    width: 375px;
+    height: 96px;
+    position: absolute;
+    margin-top: 39%;
+    margin-left: 22%;
+    background-size: 85%;
+}
+
+.botao-1-mob:hover {
+    background: url('../img/bt1_hv.png') no-repeat;
+    transform: scale(1.1);
+    background-size: 85%;
+}
+
+.botao-2-mob {
+    background: url(../img/bt2.png) no-repeat;
+    width: 382px;
+    height: 69px;
+    position: absolute;
+    margin-top: 92%;
+    margin-left: 16%;
+    background-size: 85%;
+}
+
+.botao-2-mob:hover {
+    background: url('../img/bt2_hv.png') no-repeat;
+    transform: scale(1.1);
+    background-size: 85%;
+}
+
+.botao-3-mob {
+    background: url('../img/bt3.png') no-repeat;
+    width: 382px;
+    height: 69px;
+    position: absolute;
+    margin-top: 160%;
+    margin-left: 16%;
+    background-size: 85%;
+}
+
+.botao-3-mob:hover {
+    background: url('../img/bt3_hv.png') no-repeat;
+    transform: scale(1.1);
+    background-size: 85%;
+}
+
+.botao-4-mob {
+    background: url('../img/bt4.png') no-repeat;
+    width: 311px;
+    height: 70px;
+    position: absolute;
+    margin-top: 235%;
+    margin-left: 32%;
+    background-size: 85%;
+}
+
+.botao-4-mob:hover {
+    background: url('../img/bt4_hv.png') no-repeat;
+    transform: scale(1.1);
+    background-size: 85%;
+}
+
+.botao-5-mob {
+    background: url('../img/bt5.png') no-repeat;
+    width: 311px;
+    height: 70px;
+    position: absolute;
+    margin-top: 290%;
+    margin-left: 13%;
+    background-size: 85%;
+}
+
+.botao-5-mob:hover {
+    background: url('../img/bt5_hv.png') no-repeat;
+    transform: scale(1.1);
+    background-size: 85%;
+
+}
+
+.botao-6-mob {
+    background: url('../img/bt6.png') no-repeat;
+    width: 375px;
+    height: 95px;
+    position: absolute;
+    margin-top: 386%;
+    margin-left: 7%;
+    background-size: 85%;
+}
+
+.botao-6-mob:hover {
+    background: url('../img/bt6_hv.png') no-repeat;
+    transform: scale(1.1);
+    background-size: 85%;
+}
+
+.botao-7-mob {
+    background: url('../img/bt7.png') no-repeat;
+    width: 270px;
+    height: 79px;
+    position: absolute;
+    margin-top: 484%;
+    margin-left: 25%;
+    background-size: 85%;
+}
+
+.botao-7-mob:hover {
+    background: url('../img/bt7_hv.png') no-repeat;
+    transform: scale(1.1);
+    background-size: 85%;
+}
+
+.titulo-mob {
+    background: url('../img/titulo.png') no-repeat;
+    width: 772px;
+    height: 241px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 2%;
+    background-size: 55%;
+}
+
+.titulo-mob h2 {
+    padding: 0px 12px 0px 41px;
+    color: #004787;
+    margin-bottom: unset;
+    margin-top: 1%;
+    font-size: 1.3em;
+}
+
+.titulo-mob h5 {
+    padding: 0px 90px 7px 67px;
+    color: #004787;
+    margin-top: 1%;
+    font-weight: normal !important;
+    font-family: "figtree";
+    font-size: 0.9em;
+}
+
+.titulo-mob i {
+    font-weight: normal;
+}
+
+/* mobile - ipad, smartphone, tablet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -237,13 +415,38 @@
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media print {
+
     /* Exibir o conteúdo dos botões na impressão */
     .conteudo-impressao {
         display: block;
         margin-top: 20px;
     }
-    
+
     /* Ocultar os botões na impressão */
     .botao-x {
         display: none;
@@ -251,7 +454,7 @@
 }
 
 @media screen and (max-width:1440px) {
-    .pagina1 {
+    .painel-imobiliaria {
         background: url(../img/bg_capa.jpg) no-repeat;
         transform: scale(0.75);
         width: 1920px;
@@ -291,7 +494,7 @@
 
 
 @media screen and (max-width:1400px) {
-    .pagina1 {
+    .painel-imobiliaria {
         background: url(../img/bg_capa.jpg) no-repeat;
         transform: scale(0.75);
         width: 1920px;
@@ -306,32 +509,100 @@
 
 
 @media screen and (max-width:1366px) {
+    .painel-imobiliaria {
+        background: url(../img/bg_capa.jpg) no-repeat;
+        transform: scale(0.75);
+        width: 1920px;
+        height: 1080px;
+        margin-left: -18.5%;
+        margin-top: -7%;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+    }
+}
 
-    .pagina1 {
-        background: url('../img/bg_capa.jpg') no-repeat;
-        width: 1440px;
-        height: 900px;
+@media screen and (min-width:1025px) {
+    .painel-imobiliaria-mob {
+        display: none;
     }
 }
 
 @media screen and (max-width:1024px) {
+    .painel-imobiliaria {
+        display: none;
+    }
 
+    .painel-imobiliaria-mob {
+        background: url(../img/capa_mob_smart.jpg) no-repeat;
+        width: 430px;
+        height: 2222px;
+        transform: scale(2.3);
+        margin-left: 28%;
+        margin-top: 146%;
+    }
 }
 
+
+
+
+
+
 @media screen and (max-width:820px) {
-
-
+    .painel-imobiliaria-mob {
+        background: url(../img/capa_mob_smart.jpg) no-repeat;
+        width: 430px;
+        height: 2222px;
+        transform: scale(1.9);
+        margin-left: 23%;
+        margin-top: 122%;
+    }
 }
 
 @media screen and (min-width: 769px) {}
 
 
 @media screen and (max-width: 768px) {
+    .painel-imobiliaria-mob {
+        background: url(../img/capa_mob_smart.jpg) no-repeat;
+        width: 430px;
+        height: 2222px;
+        transform: scale(1.78);
+        margin-left: 22%;
+        margin-top: 113%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .painel-imobiliaria-mob {
+        background: url('../img/capa_mob_smart.jpg') no-repeat;
+        width: 430px;
+        height: 2222px;
+        transform: unset;
+        margin-top: unset;
+        margin-left: unset;
+    }
+}
+
+
+
+@media screen and (max-width:414px) {
+
+    .painel-imobiliaria-mob {
+        background: url('../img/capa_mob_smart.jpg') no-repeat;
+        width: 430px;
+        height: 2222px;
+        transform: scale(1.0);
+    }
 
 }
 
-@media screen and (max-width:480px) {
-
+@media screen and (max-width:375px) {
+    .painel-imobiliaria-mob {
+        background: url('../img/capa_mob_smart.jpg') no-repeat;
+        width: 430px;
+        height: 2222px;
+        transform: scale(0.9);
+        margin-left: -6%;
+        margin-top: -29%;
+    }
 }
-
-@media screen and (max-width:375px) {}
