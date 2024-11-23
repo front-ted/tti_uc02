@@ -963,6 +963,21 @@ tbody td:first-child {
     background-image: url('../images/13.png');
 }
 
+.marcador-numeral li:nth-child(14) {
+    background-image: url('../images/14.png');
+}
+
+.marcador-numeral li:nth-child(15) {
+    background-image: url('../images/15.png');
+}
+
+.marcador-numeral li:nth-child(16) {
+    background-image: url('../images/16.png');
+}
+
+.marcador-numeral li:nth-child(17) {
+    background-image: url('../images/17.png');
+}
 
 .marcador-letras li:nth-child(1) {
     background-image: url('../images/marcador_a.svg');
