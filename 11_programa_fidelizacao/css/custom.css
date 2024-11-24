@@ -1,24 +1,28 @@
 .bloco1 {
-    background: url('../img/flutuante-05.png') left 32% no-repeat,
-        url('../img/flutuante-04.png') 100% 3% no-repeat,
-        url('../img/flutuante-07.png') left 97% no-repeat,
-        url('../img/flutuante-06.png') 100% 62% no-repeat,
+    background: url('../img/lateral_1.png') 0% 10% no-repeat,
+        url('../img/lateral_2.png') 100% 44% no-repeat,
+        url('../img/lateral_3.png') left 82% no-repeat,
         url('../img/bg.png') no-repeat fixed !important;
-    background-size: 15%, 15%, 15%, 15%, cover !important;
+    background-size: 15%, 15%, 15%, cover !important;
 }
 
 .bloco2 {
     background:
-        url('../img/flutuante-08.png') 100% 25% no-repeat,
-        url('../img/flutuante-04.png') left 70% no-repeat,
+        url('../img/elemento_1.png') 7% 6% no-repeat,
+        url('../img/elemento_3.png') 95% 29% no-repeat,
+        url('../img/elemento_2.png') 7% 44% no-repeat,
+        url('../img/elemento_4.png') 98% 70% no-repeat,
         url('../img/bg-03.jpg') bottom no-repeat !important;
-    background-size: 15%, 15%, 100% !important;
+    background-size: 15%, 15%, 15%, 15%, 100% !important;
     padding-bottom: 10%;
 }
 
+.bloco4 {
+    background: url('../img/bg-03.jpg') bottom no-repeat !important;
+}
 
-
-.bloco3 {
+.bloco3,
+.bloco5 {
     background: #004787;
     background-size: cover !important;
 }
@@ -32,6 +36,14 @@
 }
 
 .bloco3 h3 {
+    color: #fff;
+}
+
+.bloco5 p {
+    color: #fff;
+}
+
+.bloco5 h3 {
     color: #fff;
 }
 
@@ -61,7 +73,18 @@
     display: block;
 }
 
-.bg-escuro figcaption,
+.bg-escuro .content p {
+    color: #000;
+}
+
+.bg-escuro .passos {
+    color: #000;
+}
+
+.bg-escuro .numeros-linha {
+    color: #000;
+}
+
 .bg-escuro .tab-content,
 .bg-escuro .modal-body * {
     color: #000;
@@ -232,11 +255,11 @@
     margin-top: -40%;
 }
 
-.espaco-top{
+.espaco-top {
     margin-top: 20%;
 }
 
-.bloco3 li{
+.bloco3 li {
     color: #fff;
 }
 
@@ -285,21 +308,21 @@
 .step3 {
     display: flex;
     align-items: center;
-    margin: 2% 0;
+    margin: -15% 0;
     position: relative;
 }
 
 .step4 {
     display: flex;
     align-items: center;
-    margin: -5.6% 0;
+    margin: -21% 0;
     position: relative;
 }
 
 .step5 {
     display: flex;
     align-items: center;
-    margin: -17% 0;
+    margin: 8% 0;
     position: relative;
 }
 
@@ -371,23 +394,6 @@
 }
 
 /* linha do tempo */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width:1440px) {
@@ -488,6 +494,7 @@
         transform: scale(0.8);
         margin-left: -4%;
     }
+
     .step,
     .step1,
     .step2,
@@ -517,6 +524,14 @@
 
     }
 
+    .timeline::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 90%;
+        background-color: #d2d2d2;
+        top: 5%;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -551,7 +566,6 @@
         transform: scale(0.8);
         margin-left: -10%;
     }
-
 }
 
 @media screen and (min-width: 481px) {
@@ -597,6 +611,13 @@
     .carousel-desk {
         display: none;
     }
+
+    .timeline::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 90%;
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -622,11 +643,5 @@
         transform: scale(0.8);
         margin-left: -11%;
     }
-
-
-
-
-
-
 
 }
