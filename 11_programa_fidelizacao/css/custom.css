@@ -1,0 +1,147 @@
+.bloco1 {
+    background: url('../img/flutuante-05.png') left 32% no-repeat,
+        url('../img/flutuante-04.png') 100% 3% no-repeat,
+        url('../img/flutuante-07.png') left 97% no-repeat,
+        url('../img/flutuante-06.png') 100% 62% no-repeat,
+        url('../img/bg.png') no-repeat fixed !important;
+    background-size: 15%, 15%, 15%, 15%, cover !important;
+}
+
+.bloco2 {
+    background:
+        url('../img/flutuante-08.png') 100% 25% no-repeat,
+        url('../img/flutuante-04.png') left 70% no-repeat,
+        url('../img/bg-03.jpg') bottom no-repeat !important;
+    background-size: 15%, 15%, 100% !important;
+    padding-bottom: 10%;
+}
+
+.bloco3 {
+    background: #004787;
+    background-size: cover !important;
+}
+
+.divisor-azul {
+    margin-top: -5%;
+}
+
+.bloco3 p {
+    color: #fff;
+}
+
+.bloco3 h3 {
+    color: #fff;
+}
+
+.bg-escuro .bt-tooltip {
+    color: #ffff;
+}
+
+.bg-escuro .marcador-numeral li {
+    color: #fff;
+}
+
+.destaque .marcador-numeral {
+    color: #fff;
+}
+
+.hvr-sweep-to-right:active,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:hover {
+    color: #fff !important;
+}
+
+.painel-gaitinha-mob {
+    display: none;
+}
+
+.painel-abas-desk {
+    display: block;
+}
+
+.bg-escuro figcaption,
+.bg-escuro .tab-content,
+.bg-escuro .modal-body * {
+    color: #000;
+}
+
+.bg-escuro .infografico-1 p {
+    color: #000;
+}
+
+.bg-escuro .accordion-body p {
+    color: #000 !important;
+}
+
+.divisor-branco {
+    margin-top: -5%;
+}
+
+.espaco {
+    margin-bottom: 15%;
+}
+
+.espera-video {
+    background-color: #ffa366;
+    width: auto;
+    height: 300px;
+    margin: auto;
+}
+
+
+.piramide{
+    background: url('../img/piramide_invertida.png');
+    width: 368px;
+    height: 321px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+
+@media screen and (max-width:1024px) {
+
+    .bloco1 {
+        background: url('../img/bg.png') no-repeat fixed !important;
+    }
+
+    .bloco2 {
+        background: url('../img/bg-03.jpg') no-repeat !important;
+    }
+
+    .bloco3 {
+        background: #004787;
+        background-size: cover !important;
+    }
+}
+
+@media screen and (max-width:820px) {
+
+   
+}
+
+@media screen and (min-width: 769px) {
+    .sem-bottom {
+        margin-bottom: 30px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) { 
+    .pmargem {
+        display: none !important;
+    }
+
+    .sem-bottom {
+        margin-bottom: 0px !important;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+   
+}
+
+@media screen and (max-width:375px) {
+
+}
