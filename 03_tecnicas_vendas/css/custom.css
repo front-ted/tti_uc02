@@ -158,15 +158,15 @@
     background-size: contain;
 }
 
+.paginas {
+    overflow-x: hidden;
+}
 
 @media screen and (max-width:1024px) {
 
     .bloco1 {
-        background: url('../img/bg.png') no-repeat fixed !important;
-    }
-
-    .bloco2 {
-        background: url('../img/bg-03.jpg') no-repeat !important;
+        background: url('../img/bg.png') no-repeat !important;
+        background-size: cover !important;
     }
 
     .bloco3 {
@@ -225,6 +225,15 @@
 
     .infografico-1 {
         padding: 25px 15px 19px 20px;
+    }
+
+
+    .bloco2 {
+        background: url('../img/bg-03.jpg') no-repeat bottom !important;
+    }
+
+    .bloco1 {
+        background: url('../img/bg.png') no-repeat cover !important;
     }
 }
 

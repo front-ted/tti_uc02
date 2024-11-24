@@ -365,12 +365,14 @@
     display: none;
 }
 
-.titulos-sociais{
+.titulos-sociais {
     display: flex;
     flex-wrap: nowrap;
 }
 
-
+.paginas {
+    overflow-x: hidden !important;
+}
 
 
 
@@ -402,11 +404,11 @@
         display: none;
     }
 
-    .titulos-sociais{
+    .titulos-sociais {
         display: flex;
         flex-wrap: nowrap;
     }
-    
+
 }
 
 
@@ -497,6 +499,16 @@
         margin-left: 28%;
         margin-top: 146%;
     }
+
+    .botao-x.visitado::after {
+        background: url(../img/check.png) no-repeat;
+        height: 39px;
+        width: 45px;
+        position: absolute;
+        top: -23px;
+        right: 54px;
+        content: '';
+    }
 }
 
 
@@ -534,9 +546,19 @@
         background: url('../img/capa_mob_smart.jpg') no-repeat;
         width: 430px;
         height: 2222px;
-        transform: unset;
+        transform: scale(1.0);
         margin-top: unset;
         margin-left: unset;
+    }
+
+    .botao-x.visitado::after {
+        background: url(../img/check.png) no-repeat;
+        height: 39px;
+        width: 45px;
+        position: absolute;
+        top: -25px;
+        right: 60px;
+        content: '';
     }
 }
 
