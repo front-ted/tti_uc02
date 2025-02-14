@@ -115,6 +115,11 @@ body {
     background: url('../img/infografico_desk03.png') no-repeat;
 }
 
+.sublinhado {
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-style: dashed;
+}
 
 .bg-escuro figcaption,
 .bg-escuro .tab-content,
@@ -130,6 +135,30 @@ body {
     color: #000 !important;
 }
 
+.botoes-central {
+    margin-top: 9%;
+    margin-bottom: 10%;
+}
+
+.botoes-central .botao::before {
+    border-radius: 17px;
+}
+
+.destaque-2 {
+    min-height: 435px;
+}
+
+
+@media screen and (max-width:1440px) {
+
+    .destaque-1,
+    .destaque-2 {
+        margin: 45px 0;
+    }
+
+}
+
+
 
 @media screen and (max-width:1024px) {
     .painel-gaitinha-mob {
@@ -143,6 +172,11 @@ body {
     body {
         background: url('../img/bg.png') no-repeat fixed !important;
         background-size: cover !important;
+    }
+
+    .destaque-1,
+    .destaque-2 {
+        margin: 34px 0;
     }
 }
 
@@ -178,7 +212,21 @@ body {
         background: url('../img/infografico_desk03t3.png') no-repeat;
     }
 
+    .destaque-1,
+    .destaque-2 {
+        min-height: 556px;
+        margin: 34px 0;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    .destaque-1, .destaque-2 {
+        min-height: 447px;
+        margin: 34px 0;
+    }
+}
+
+
 
 
 @media screen and (max-width:480px) {
@@ -217,5 +265,11 @@ body {
         justify-content: center;
         padding: 131px 28px 1px 28px;
         background: url('../img/infografico_mobile03.png') no-repeat;
+    }
+
+    .destaque-1,
+    .destaque-2 {
+        min-height: 375px;
+        margin: 34px 0;
     }
 }

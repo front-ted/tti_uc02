@@ -1194,6 +1194,29 @@ tbody td:first-child {
 
 /*FIM SAIBA MAIS*/
 
+.accordion-collapse {
+    background-color: #fff;
+    margin-top: -4%;
+    padding-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.accordion-item {
+    background-color: unset;
+}
+
+.accordion-header {
+    margin-right: unset;
+}
+
+.accordion-item h2 {
+    margin-left: unset;
+}
+
+
+
+
 @media screen and (max-width: 1200px) {
     h2 {
         margin-left: 0;
