@@ -69,6 +69,16 @@
 }
 
 
+.carousel-indicators .carousel-control-prev{
+    background-color: transparent;
+}
+
+.carousel-indicators .carousel-control-next{
+    background-color: transparent;
+}
+
+
+
 @media screen and (max-width: 1024px) {
 
     .bloco1 {

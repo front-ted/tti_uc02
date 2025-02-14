@@ -69,39 +69,23 @@ body {
 }
 
 .postit1 {
-    height: 299px;
-    width: 309px;
+    height: 227px;
+    width: 239px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 37px 61px 10px 10px;
-    background: url('img/postit_1.png') no-repeat;
+    padding: 11px 19px 10px 10px;
+    background: url('img/postit.png') no-repeat;
 }
 
-.postit2 {
-    height: 310px;
-    width: 325px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 43px 10px 33px;
-    background: url('img/postit_2.png') no-repeat;
-}
-
-.postit3 {
-    height: 277px;
-    width: 275px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 43px 10px 33px;
-    background: url('img/postit_3.png') no-repeat;
-    gap: 20px;
+.letra-tit{
+    font-weight: bold;
+    font-family: figtree-bold;
 }
 
 @media screen and (max-width: 1050px) {
 
-    .postits2 {
+    .postits2, .postits {
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
