@@ -200,6 +200,16 @@
   max-width: 60% !important;
 }
 
+.pagina .img-maior {
+  display: inline-block;
+  max-width: 100% !important;
+}
+
+.texto-borda {
+  border: #969494 2px solid !important;
+  padding: 10px;
+}
+
 .pagina legend {
   display: block;
   padding-left: 2px;
@@ -918,12 +928,21 @@ table.text-left.align-middle td {
   padding-left: 40px;
 }
 
-.pagina .marcador-numeral{
+.pagina .marcador-numeral {
   display: block;
-  list-style-type:decimal !important;
+  list-style-type: decimal !important;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
+}
+
+.bloco .container{
+  padding: unset;
+}
+
+.modal-body .container {
+  margin-top: -4px;
+  padding: unset;
 }

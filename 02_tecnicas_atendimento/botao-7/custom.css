@@ -1,8 +1,8 @@
 body {
-    background: url('img/flutuante-05.png') left 65% no-repeat, 
-    url('img/flutuante-06.png') 100% 10% no-repeat, 
-    url('img/bg.png') no-repeat fixed !important;
-    background-size: 10%, 10%, cover !important;
+    background: url('img/flutuante-05.png') left 65% no-repeat,
+        url('img/flutuante-06.png') 100% 10% no-repeat,
+        url('img/bg.png') no-repeat fixed;
+    background-size: 10%, 10%, cover;
 }
 
 .espaco {
@@ -52,7 +52,12 @@ body {
 
 @media screen and (max-width: 1440px) {}
 
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1400px) {
+
+    .imagem-final {
+        margin-top: 11.2%;
+    }
+}
 
 @media screen and (max-width: 1366px) {}
 
@@ -65,11 +70,17 @@ body {
     .paginas {
         overflow-x: hidden !important;
     }
-
+    .imagem-final {
+        margin-top: 61%;
+    }
 
 }
 
-@media screen and (max-width: 820px) {}
+@media screen and (max-width: 820px) {
+    .imagem-final {
+        margin-top: 57%;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -77,7 +88,9 @@ body {
         bottom: 50px;
     }
 
-
+    .imagem-final {
+        margin-top: 52%;
+    }
 }
 
 
@@ -99,6 +112,30 @@ body {
         right: 50px;
         z-index: 4;
     }
+
+
+}
+@media screen and (max-width: 430px) {
+
+    .imagem-final {
+        margin-top: 66%;
+    }
 }
 
-@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 414px) {
+
+    .imagem-final {
+        margin-top: 23%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .imagem-final {
+        margin-top: 36%;
+    }
+}

@@ -162,13 +162,11 @@
     position: absolute;
     margin-top: 39%;
     margin-left: 22%;
-    background-size: 85%;
 }
 
 .botao-1-mob:hover {
     background: url('../img/bt1_hv.png') no-repeat;
     transform: scale(1.1);
-    background-size: 85%;
 }
 
 .botao-2-mob {
@@ -178,13 +176,11 @@
     position: absolute;
     margin-top: 92%;
     margin-left: 16%;
-    background-size: 85%;
 }
 
 .botao-2-mob:hover {
     background: url('../img/bt2_hv.png') no-repeat;
     transform: scale(1.1);
-    background-size: 85%;
 }
 
 .botao-3-mob {
@@ -194,13 +190,11 @@
     position: absolute;
     margin-top: 160%;
     margin-left: 16%;
-    background-size: 85%;
 }
 
 .botao-3-mob:hover {
     background: url('../img/bt3_hv.png') no-repeat;
     transform: scale(1.1);
-    background-size: 85%;
 }
 
 .botao-4-mob {
@@ -210,7 +204,6 @@
     position: absolute;
     margin-top: 235%;
     margin-left: 32%;
-    background-size: 85%;
 }
 
 .botao-4-mob:hover {
@@ -226,13 +219,11 @@
     position: absolute;
     margin-top: 290%;
     margin-left: 13%;
-    background-size: 85%;
 }
 
 .botao-5-mob:hover {
     background: url('../img/bt5_hv.png') no-repeat;
     transform: scale(1.1);
-    background-size: 85%;
 
 }
 
@@ -243,13 +234,11 @@
     position: absolute;
     margin-top: 386%;
     margin-left: 7%;
-    background-size: 85%;
 }
 
 .botao-6-mob:hover {
     background: url('../img/bt6_hv.png') no-repeat;
     transform: scale(1.1);
-    background-size: 85%;
 }
 
 .botao-7-mob {
@@ -259,13 +248,11 @@
     position: absolute;
     margin-top: 484%;
     margin-left: 25%;
-    background-size: 85%;
 }
 
 .botao-7-mob:hover {
     background: url('../img/bt7_hv.png') no-repeat;
     transform: scale(1.1);
-    background-size: 85%;
 }
 
 .titulo-mob {
@@ -275,15 +262,13 @@
     position: absolute;
     margin-top: 4%;
     margin-left: 2%;
-    background-size: 55%;
 }
 
 .titulo-mob h2 {
-    padding: 0px 12px 0px 41px;
+    padding: 27px 12px 4px 41px;
     color: #004787;
     margin-bottom: unset;
     margin-top: 1%;
-    font-size: 1.3em;
 }
 
 .titulo-mob h5 {
@@ -292,7 +277,6 @@
     margin-top: 1%;
     font-weight: normal !important;
     font-family: "figtree";
-    font-size: 0.9em;
 }
 
 .titulo-mob i {
@@ -341,7 +325,6 @@
     color: #000 !important;
 }
 
-
 .divisor-branco {
     margin-top: -5%;
 }
@@ -373,21 +356,6 @@
 .paginas {
     overflow-x: hidden !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -526,18 +494,6 @@
         margin-left: 2%;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width:1025px) {
@@ -552,12 +508,10 @@
     }
 
     .painel-imobiliaria-mob {
-        background: url(../img/capa_mob_smart.jpg) no-repeat;
-        width: 430px;
-        height: 2222px;
-        transform: scale(2.3);
-        margin-left: 28%;
-        margin-top: 146%;
+        background: url('../img/capa_mob_ipad.jpg') no-repeat;
+        width: 1024px;
+        height: 5292px;
+        display: block;
     }
 
     .botao-x.visitado::after {
@@ -565,25 +519,32 @@
         height: 39px;
         width: 45px;
         position: absolute;
-        top: -23px;
-        right: 54px;
+        top: -12px;
+        right: 0px;
         content: '';
     }
+
 }
-
-
-
-
-
 
 @media screen and (max-width:820px) {
     .painel-imobiliaria-mob {
-        background: url(../img/capa_mob_smart.jpg) no-repeat;
-        width: 430px;
-        height: 2222px;
-        transform: scale(1.9);
-        margin-left: 23%;
-        margin-top: 122%;
+        background: url('../img/capa_mob_ipad820.jpg') no-repeat;
+        width: 820px;
+        height: 4238px;
+    }
+
+    .titulo-mob h2 {
+        font-size: 44px;
+    }
+
+    .titulo-mob h5 {
+        font-size: 25px;
+    }
+
+    .titulo-mob {
+        background-size: 100%;
+        width: 740px;
+        height: 241px;
     }
 }
 
@@ -591,24 +552,75 @@
 
 
 @media screen and (max-width: 768px) {
-    .painel-imobiliaria-mob {
-        background: url(../img/capa_mob_smart.jpg) no-repeat;
-        width: 430px;
-        height: 2222px;
-        transform: scale(1.78);
-        margin-left: 22%;
-        margin-top: 113%;
+    .titulo-mob h2 {
+        padding: 13px 0px 0px 28px;
+        font-size: 38px;
+    }
+
+    .titulo-mob h5 {
+        padding: 13px 0px 0px 28px;
+        font-size: 23px;
+    }
+
+    .botao-7-mob {
+        margin-top: 506%;
+    }
+
+    .botao-6-mob {
+        margin-top: 357%;
+        margin-left: 41%;
+    }
+
+    .botao-4-mob {
+        margin-top: 227%;
+        margin-left: 12%;
+    }
+
+    .titulo-mob {
+        background-size: 100%;
+        width: 700px;
+        height: 241px;
     }
 }
 
+
 @media screen and (max-width:430px) {
-    .painel-imobiliaria-mob {
+    /* .painel-imobiliaria-mob {
         background: url('../img/capa_mob_smart.jpg') no-repeat;
         width: 430px;
         height: 2222px;
-        transform: scale(1.0);
         margin-top: unset;
         margin-left: unset;
+    } */
+
+
+}
+
+
+
+@media screen and (max-width:480px) {
+
+    .painel-imobiliaria-mob {
+        background: url('../img/capa_mob_smart.jpg') no-repeat;
+        background-size: cover;
+        margin-top: unset;
+        margin-left: unset;
+        width: 430px;
+        height: 2222px;
+
+    }
+
+    .titulo-mob {
+        background-size: 100%;
+        margin-left: unset;
+        width: 395px;
+        height: 241px;
+        margin-left: 2%;
+    }
+
+    .titulo-mob h2 {
+        padding: 14px 0px 0px 19px;
+        font-size: 20px;
     }
 
     .botao-x.visitado::after {
@@ -622,24 +634,39 @@
     }
 
     .titulo-mob h5 {
-        padding: 0px 90px 7px 43px;
+        padding: 0px 0px 0px 23px;
         color: #004787;
         margin-top: 1%;
         font-weight: normal !important;
         font-family: "figtree";
-        font-size: 0.9em;
+        font-size: 16px;
     }
-}
+
+    .botao-1-mob,
+    .botao-2-mob,
+    .botao-3-mob,
+    .botao-4-mob,
+    .botao-5-mob,
+    .botao-6-mob,
+    .botao-7-mob {
+        background-size: 85%;
+        margin-left: 8%;
+    }
 
 
 
-@media screen and (max-width:414px) {
+    .botao-1-mob:hover,
+    .botao-2-mob:hover,
+    .botao-3-mob:hover,
+    .botao-4-mob:hover,
+    .botao-5-mob:hover,
+    .botao-6-mob:hover,
+    .botao-7-mob:hover {
+        background-size: 85%;
+    }
 
-    .painel-imobiliaria-mob {
-        background: url('../img/capa_mob_smart.jpg') no-repeat;
-        width: 430px;
-        height: 2222px;
-        transform: scale(1.0);
+    .botao-7-mob {
+        margin-top: 490%;
     }
 
 }
@@ -647,15 +674,31 @@
 @media screen and (max-width:375px) {
     .painel-imobiliaria-mob {
         background: url(../img/capa_mob_smart.jpg) no-repeat;
-        transform: scale(1.0);
         margin-left: 0%;
         margin-top: 0%;
         background-size: cover;
     }
 
+    .titulo-mob {
+        background-size: 100%;
+        margin-left: unset;
+        width: 379px;
+        height: 241px;
+    }
+
+    .titulo-mob h2 {
+        padding: 4px 10px 3px 17px;
+        font-size: 22px;
+    }
+
+    .titulo-mob h5 {
+        padding: 0px 0px 0px 23px;
+        color: #004787;
+        margin-top: 0.5%;
+        font-size: 15px;
+    }
+
     .botao-5-mob {
-        width: 311px;
-        height: 70px;
         position: absolute;
         margin-top: 273%;
         margin-left: 13%;
@@ -663,22 +706,16 @@
 
     .botao-6-mob {
         background: url(../img/bt6.png) no-repeat;
-        width: 375px;
-        height: 95px;
         position: absolute;
         margin-top: 355%;
         margin-left: 7%;
-        background-size: 85%;
     }
 
     .botao-7-mob {
         background: url(../img/bt7.png) no-repeat;
-        width: 270px;
-        height: 79px;
         position: absolute;
-        margin-top: 470%;
-        margin-left: 25%;
-        background-size: 85%;
+        margin-top: 537%;
+        margin-left: 9%;
     }
 
     .botao-1-mob {
@@ -694,13 +731,44 @@
 
     .botao-3-mob {
         margin-left: 6%;
-
     }
 
     .botao-4-mob {
         margin-top: 235%;
-        margin-left: 20%;
+        margin-left: 10%;
+    }
 
+    .paginas {
+        overflow-x: hidden !important;
+    }
+
+    .botao-1-mob:hover,
+    .botao-2-mob:hover,
+    .botao-3-mob:hover,
+    .botao-4-mob:hover,
+    .botao-5-mob:hover,
+    .botao-6-mob:hover,
+    .botao-7-mob:hover {
+        background-size: 100%;
+        width: 300px;
+        height: 96px;
+    }
+
+    .botao-1-mob,
+    .botao-2-mob,
+    .botao-3-mob,
+    .botao-4-mob,
+    .botao-5-mob,
+    .botao-6-mob,
+    .botao-7-mob {
+        background-size: 100%;
+        width: 300px;
+        height: 96px;
+    }
+
+
+    .botao-x.visitado::after {
+        right: 6px;
     }
 
 
