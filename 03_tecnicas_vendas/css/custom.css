@@ -181,7 +181,7 @@
 
 @media screen and (max-width:1440px) {
 
-    .bloco3{
+    .bloco3 {
         margin-top: -3%;
     }
 }
@@ -255,7 +255,7 @@
         background: url('../img/bg.png') no-repeat cover !important;
     }
 
-    .bloco3{
+    .bloco3 {
         margin-top: -3%;
     }
 }
