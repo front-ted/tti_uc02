@@ -1,6 +1,6 @@
 body {
     background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
-        url('../img/bg-flutuante02.png') 100% 96% no-repeat fixed,
+        url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
     background-size: 15%, 15%, cover !important;
 
@@ -77,10 +77,16 @@ body {
 
 
 .painel-esquema {
-    background: url('../img/painel02.png') no-repeat;
+    background: url('../img/painel02_1.png') no-repeat;
     width: 288px;
     height: 292px;
     margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.painel-esquema .botao {
+    width: 270px;
 }
 
 .botao-1 {
@@ -115,7 +121,7 @@ body {
 
 .botao-4 {
     position: absolute;
-    margin-left: -13%;
+    margin-left: -29%;
     margin-top: 12%;
     border-color: #fc9d49;
     color: #fc9d49;
@@ -127,8 +133,8 @@ body {
 
 .botao-5 {
     position: absolute;
-    margin-left: -24%;
-    margin-top: -1.5%;
+    margin-left: -29%;
+    margin-top: -2.5%;
     border-color: #004787;
     color: #004787;
 }
@@ -181,74 +187,133 @@ body {
 
 @media screen and (max-width:820px) {
 
-
-
     .paginas {
         overflow-x: hidden !important;
     }
 
     .botao-1 {
         position: absolute;
-        margin-left: 36%;
-        margin-top: -2.5%;
+        margin-left: 101%;
+        margin-top: -5.5%;
         border-color: #fc9d49;
         color: #fc9d49;
     }
 
     .botao-2 {
         position: absolute;
-        margin-left: 36%;
-        margin-top: 13%;
+        margin-left: 101%;
+        margin-top: 40%;
     }
 
     .botao-3 {
         padding: 10px 2px;
         position: absolute;
-        margin-left: 36%;
-        margin-top: 31%;
+        margin-left: 101%;
+        margin-top: 90%;
         border-color: #004787;
         color: #004787;
     }
 
     .botao-5 {
         position: absolute;
-        margin-left: -28%;
-        margin-top: -1.5%;
+        margin-left: -95%;
+        margin-top: -5.5%;
         border-color: #004787;
         color: #004787;
     }
 
     .botao-4 {
         position: absolute;
-        margin-left: -15%;
-        margin-top: 14%;
+        margin-left: -95%;
+        margin-top: 40%;
     }
+
+
+    .painel-esquema{
+        transform: scale(0.95);
+    }
+
+
+    .painel-piramide {
+        transform: scale(0.8);
+        margin-left: -8%;
+    }
+
+    .botao-amor {
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 26%;
+    }
+
+    .botao-seg {
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 38%;
+    }
+
+    .botao-fisio {
+        position: absolute;
+        margin-left: 19%;
+        margin-top: 50%;
+    }
+
+
+
 
 }
 
 @media screen and (max-width:768px) {
     .botao-1 {
         position: absolute;
-        margin-left: 38%;
+        margin-left: 101%;
     }
 
     .botao-2 {
         position: absolute;
-        margin-left: 38%;
-        margin-top: 15%;
+        margin-left: 101%;
+        margin-top: 40%;
     }
 
     .botao-3 {
         padding: 10px 2px;
         position: absolute;
-        margin-left: 38%;
-        margin-top: 34%;
+        margin-left: 101%;
+        margin-top: 91%;
     }
 
     .botao-5 {
         position: absolute;
-        margin-left: -26%;
+        margin-left: -95%;
     }
+
+    .painel-piramide {
+        transform: scale(0.75);
+        margin-left: -12%;
+    }
+
+    .botao-amor {
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 26%;
+    }
+
+    .botao-seg {
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 38%;
+    }
+
+    .botao-fisio {
+        position: absolute;
+        margin-left: 19%;
+        margin-top: 50%;
+    }
+
+    .painel-esquema {
+        transform: scale(0.9);
+    }
+
+
 }
 
 @media screen and (max-width:480px) {
@@ -264,95 +329,54 @@ body {
         width: 370px;
         height: 221px;
         margin: 0;
+        transform: scale(1.1);
+        margin-left: 4%;
     }
 
     .painel-piramide .botao {
-        padding: 12px 28px;
-        width: 200px;
+        padding: 3.5px 4px;
+        width: 176px;
     }
 
+    .botao-fisio {
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 49%;
+    }
 
+    .botao-realizacao {
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
 
+    .botao-seg {
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 37%;
+    }
 
+    .botao-estima {
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 13%;
+    }
 
-
-
-
-
-
-
-
-
+    .botao-amor {
+        position: absolute;
+        margin-left: -3%;
+        margin-top: 24.5%;
+    }
 
     .painel-esquema {
-        background: url('../img/painel02-mo2.png') no-repeat;
+        background: url('../img/painel02_1mob.png') no-repeat;
         width: 150px;
         height: 152px;
-        margin: auto;
+        transform: scale(0.9);
     }
 
-    .botao-1 {
-        position: absolute;
-        margin-left: 36%;
-        margin-top: -5%;
-    }
-
-    .botao-1,
-    .botao-2,
-    .botao-3,
-    .botao-4,
-    .botao-5 {
-        padding: 7px 4px;
-    }
-
-    .botao-2 {
-        position: absolute;
-        margin-left: 37%;
-        margin-top: 13%;
-    }
-
-    .botao-3 {
-        position: absolute;
-        margin-left: 35%;
-        margin-top: 28%;
-        margin-right: 8%;
-    }
-
-    .botao-5 {
-        position: absolute;
-        margin-left: -28%;
-        margin-top: -5%;
-        margin-right: 69%;
-    }
-
-    .botao-4 {
-        position: absolute;
-        margin-left: -16%;
-        margin-top: 13%;
-    }
-}
-
-@media screen and (max-width:414px) {
-    .botao-1 {
-        position: absolute;
-        margin-left: 37%;
-        margin-top: -5%;
-    }
-
-    .botao-3 {
-        position: absolute;
-        margin-left: 37%;
-    }
-}
-
-@media screen and (max-width:375px) {
-
-
-    .painel-esquema {
-        background: url('../img/painel02-mob.png') no-repeat;
-        width: 100px;
-        height: 101px;
-        margin: auto;
+    .painel-esquema .botao {
+        width: 125px;
     }
 
     .botao-1,
@@ -361,35 +385,223 @@ body {
     .botao-4,
     .botao-5 {
         padding: 5px 2px;
+
     }
 
     .botao-1 {
         position: absolute;
-        margin-left: 29%;
-        margin-top: -5%;
+        margin-left: 103%;
+        margin-top: -14%;
     }
 
     .botao-2 {
         position: absolute;
-        margin-left: 29%;
-        margin-top: 9%;
+        margin-left: 102%;
+        margin-top: 34%;
     }
 
     .botao-3 {
         position: absolute;
-        margin-left: 27%;
-        margin-top: 20%;
+        margin-left: 102%;
+        margin-top: 83%;
     }
 
     .botao-5 {
         position: absolute;
-        margin-left: -24%;
-        margin-top: -9%;
+        margin-left: -86%;
+        margin-top: -18%;
     }
 
     .botao-4 {
         position: absolute;
-        margin-left: -17%;
-        margin-top: 8%;
+        margin-left: -86%;
+        margin-top: 34%;
     }
+}
+
+@media screen and (max-width:414px) {
+
+    .painel-piramide {
+        transform: unset;
+        margin-left: unset;
+    }
+
+    .botao-fisio {
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 44%;
+    }
+
+    .botao-seg {
+        position: absolute;
+        margin-left: -2%;
+        margin-top: 33%;
+    }
+
+    .botao-realizacao {
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 1%;
+    }
+
+    .botao-estima {
+        position: absolute;
+        margin-left: -2%;
+        margin-top: 11.5%;
+    }
+
+    .botao-amor {
+        position: absolute;
+        margin-left: -4%;
+        margin-top: 22.5%;
+    }
+
+
+    .painel-esquema {
+        background: url('../img/painel02_1mob.png') no-repeat;
+        width: 150px;
+        height: 152px;
+        transform: scale(0.85);
+    }
+
+    .painel-esquema .botao {
+        width: 125px;
+    }
+
+    .botao-1,
+    .botao-2,
+    .botao-3,
+    .botao-4,
+    .botao-5 {
+        padding: 5px 2px;
+
+    }
+
+    .botao-1 {
+        position: absolute;
+        margin-left: 103%;
+        margin-top: -14%;
+    }
+
+    .botao-2 {
+        position: absolute;
+        margin-left: 102%;
+        margin-top: 34%;
+    }
+
+    .botao-3 {
+        position: absolute;
+        margin-left: 102%;
+        margin-top: 83%;
+    }
+
+    .botao-5 {
+        position: absolute;
+        margin-left: -86%;
+        margin-top: -18%;
+    }
+
+    .botao-4 {
+        position: absolute;
+        margin-left: -86%;
+        margin-top: 34%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:375px) {
+
+
+    .painel-esquema {
+        background: url('../img/painel02_1mob.png') no-repeat;
+        width: 150px;
+        height: 152px;
+        transform: scale(0.85);
+    }
+
+    .painel-esquema .botao {
+        width: 125px;
+    }
+
+    .botao-1,
+    .botao-2,
+    .botao-3,
+    .botao-4,
+    .botao-5 {
+        padding: 5px 2px;
+
+    }
+
+    .botao-1 {
+        position: absolute;
+        margin-left: 103%;
+        margin-top: -14%;
+    }
+
+    .botao-2 {
+        position: absolute;
+        margin-left: 100%;
+        margin-top: 34%;
+    }
+
+    .botao-3 {
+        position: absolute;
+        margin-left: 100%;
+        margin-top: 83%;
+    }
+
+    .botao-5 {
+        position: absolute;
+        margin-left: -85%;
+        margin-top: -18%;
+    }
+
+    .botao-4 {
+        position: absolute;
+        margin-left: -86%;
+        margin-top: 34%;
+    }
+
+    .painel-piramide {
+        transform: scale(0.9);
+    }
+
+    .botao-fisio {
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 48%;
+    }
+
+    .botao-seg {
+        position: absolute;
+        margin-left: -3%;
+        margin-top: 37%;
+    }
+
+    .botao-amor {
+        position: absolute;
+        margin-left: -6%;
+        margin-top: 24.5%;
+    }
+
+    .botao-estima {
+        position: absolute;
+        margin-left: -3%;
+        margin-top: 12.5%;
+    }
+
+
+
 }
