@@ -217,11 +217,40 @@ body {
 
 .bg-email {
     position: absolute;
-    margin-left: -24%;
+    margin-left: -27%;
     margin-top: 4%
 }
 
+.bg-escuro .card-redes{
+    background-color: transparent;
+}
 
+.bg-escuro .card-redes p{
+    color: #fff;
+}
+.bg-escuro .card-redes figcaption{
+    color: #b8b7b7;
+}
+
+.bg-escuro .card-redes .bg-linkedin{
+    opacity: 0.1;
+}
+
+.bg-escuro .card-redes .bg-face{
+    opacity: 0.1;
+}
+
+.bg-escuro .card-redes .bg-email{
+    opacity: 0.1;
+}
+
+.bg-escuro .card-redes h4 {
+    margin: 20px 0;
+    line-height: 1.5;
+    color: #0b8df8;
+}
+
+ 
 @media screen and (max-width: 1440px) {
     .card-redes {
         background: #fff;
