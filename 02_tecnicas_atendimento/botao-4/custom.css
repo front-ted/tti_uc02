@@ -1,6 +1,6 @@
 body {
     background: url('img/bg_flutuante4A.png') left 0% no-repeat fixed, 
-    url('img/bg_flutuante4B.png') 100% 100% no-repeat fixed, 
+    url('img/bg_flutuante4B.png') 100% 64% no-repeat fixed, 
     url('img/bg.png') no-repeat fixed !important;
     background-size: 15%, 15%, cover !important;
 }
