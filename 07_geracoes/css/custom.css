@@ -1,7 +1,7 @@
 body {
     background:
         url('../img/bg.png') no-repeat fixed !important;
-    background-size:cover !important;
+    background-size: cover !important;
 }
 
 .card-1 {
@@ -55,7 +55,7 @@ body {
     background-attachment: fixed !important;
 }
 
-.bloco-paralax-1 {
+.bloco-paralax1 {
     width: 100%;
     height: 400px;
     background: url('../img/bg-parallax02.jpg');
@@ -96,11 +96,11 @@ body {
 }
 
 .text.generation-x {
-    padding: 36px;
+    padding: 36.6px;
 }
 
 .text.generation-z {
-    padding: 6px;
+    padding: 3px 10px 8px 10px;
 }
 
 .text h4 {
@@ -129,7 +129,7 @@ body {
 
 .infografico-1 img {
     flex: 1;
-    max-width: 50%;
+    max-width: 50.1%;
     object-fit: cover;
 }
 
@@ -137,43 +137,56 @@ body {
     margin-top: 15%;
 }
 
+
+
 /* infografico */
 
 .painel-1 {
-    background: url('../img/painel-clicavel.png');
-    width: 901px;
-    height: 474px;
+    
+    /* width: 901px;
+    height: 474px; */
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
+.painel-1 .botao {
+    width: 195px;
+    margin-bottom: 10px;
+}
+
+
+.painel-1 .botao::before {
+    border-radius: 20px;
+}
 .botao-1 {
-    position: absolute;
-    left: 8%;
-    margin-top: 3%;
+    /* position: absolute;
+    left: 0%;
+    margin-top: 0%; */
     border-color: #004787;
     color: #004787;
 }
 
 .botao-2 {
-    position: absolute;
-    left: 60%;
-    margin-top: -3%;
+    /* position: absolute;
+    left: 0%;
+    margin-top: 0%; */
     border-color: #fc9d49;
     color: #fc9d49;
 }
 
 .botao-3 {
-    position: absolute;
-    left: 78%;
-    margin-top: 37%;
+    /* position: absolute;
+    left: 0%;
+    margin-top: 0%; */
+    border-color: #004787;
+    color: #004787;
 }
 
 .botao-4 {
-    position: absolute;
-    left: 44%;
-    margin-top: 46%;
+    /* position: absolute;
+    left: 0%;
+    margin-top: 0%; */
     border-color: #fc9d49;
     color: #fc9d49;
 }
@@ -190,7 +203,9 @@ body {
     background-color: #004787;
 }
 
-
+.botao-3.hvr-sweep-to-right:before {
+    background-color: #004787;
+}
 
 
 
@@ -254,68 +269,34 @@ body {
         width: 470px;
         height: 320px;
     }
-
-    .painel-1 {
-        background-size: 75%;
-        background-repeat: no-repeat;
-    }
-
-    .botao-4 {
-        position: absolute;
-        left: 44%;
-        margin-top: 40%;
-        border-color: #fc9d49;
-        color: #fc9d49;
-    }
-
-    .botao-3 {
-        position: absolute;
-        left: 70%;
-        margin-top: 33%;
+    .geracao{
+        margin-bottom: 16%;
     }
 }
 
 
 
 @media screen and (max-width:768px) {
-    .botao-4 {
-        position: absolute;
-        left: 44%;
-        margin-top: 43%;
-        border-color: #fc9d49;
-        color: #fc9d49;
-    }
+
 }
 
 @media screen and (max-width:480px) {
-    .mt-5 {
-        margin-top: unset !important;
+    .painel-1{
+        gap: 20px;
     }
 
+    .geracao{
+        margin-bottom: 16%;
+    }
     .text {
         width: 369px;
         height: 320px;
     }
 
-    .painel-1 {
-        background-size: 40%;
-        background-repeat: no-repeat;
-        height: 260px;
+    .bloco-paralax, .bloco-paralax-1, .bloco-paralax-2{
+        display: none;
     }
 
-    .botao-4 {
-        position: absolute;
-        left: 7%;
-        margin-top: 32%;
-        border-color: #fc9d49;
-        color: #fc9d49;
-    }
-
-    .botao-3 {
-        position: absolute;
-        left: 60%;
-        margin-top: 33%;
-    }
 }
 
 @media screen and (max-width: 414px) {

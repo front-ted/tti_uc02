@@ -36,7 +36,7 @@ body {
     color: #000 !important;
 }
 
-.bg-escuro .flip-card p{
+.bg-escuro .flip-card p {
     color: #000;
 }
 
@@ -48,9 +48,35 @@ body {
     display: block;
 }
 
-.ilustra-2{
+.ilustra-2 {
     margin-top: -7%;
 }
+
+
+.destaque-1 {
+    min-height: 259px;
+}
+
+
+@media screen and (max-width:1440px) {
+
+    .destaque-1,
+    .destaque-2 {
+        margin: 45px 0;
+    }
+}
+
+@media screen and (max-width:1400px) {
+
+    body {
+        background: url(../img/bg-flutuante02.png) left 98% no-repeat fixed, url(../img/bg-flutuante01.png) 100% 13% no-repeat fixed, url(../img/bg.png) no-repeat fixed !important;
+        background-size: 15%, 13.5%, cover !important;
+    }
+}
+
+
+
+
 
 @media screen and (max-width:1024px) {
     body {
@@ -66,16 +92,53 @@ body {
     .painel-abas-desk {
         display: none;
     }
+
+    .destaque-1,
+    .destaque-2 {
+        margin: 34px 0;
+    }
 }
 
 @media screen and (max-width:820px) {
     .paginas {
         overflow-x: hidden !important;
     }
+
+    .destaque-1,
+    .destaque-2 {
+        min-height: 338px;
+        margin: 34px 0;
+    }
+
+    .citacao p{
+        font-size: 1em;
+    }
 }
 
+@media screen and (max-width:768px) {
+    .paginas {
+        overflow-x: hidden !important;
+    }
+
+    .destaque-1,
+    .destaque-2 {
+        min-height: 257px;
+        margin: 34px 0;
+    }
+
+    .citacao p{
+        font-size: .8em;
+    }
+}
+
+
+
+
 @media screen and (max-width:480px) {
-    .mt-5 {
-        margin-top: unset !important; 
+
+    .destaque-1,
+    .destaque-2 {
+        min-height: 231px;
+        margin: 50px 0;
     }
 }

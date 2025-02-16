@@ -946,3 +946,15 @@ table.text-left.align-middle td {
   margin-top: -4px;
   padding: unset;
 }
+
+.citacao{
+  margin-left: 4cm;
+}
+
+.bloco-1, .bloco-2, .bloco-3, .bloco-4{
+  padding: unset;
+}
+
+.bloco-1 .container, .bloco-2  .container, .bloco-3  .container, .bloco-4  .container{
+  padding: unset;
+}

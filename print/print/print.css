@@ -229,6 +229,8 @@
     page-break-inside: avoid;
   }
 
+
+
   /*carousel*/
   .carousel {
     margin: 0;
@@ -442,7 +444,9 @@
     padding: unset;
   }
 
-
+  .citacao{
+    margin-left: 4cm;
+  }
 
 
 }
