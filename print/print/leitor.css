@@ -958,3 +958,7 @@ table.text-left.align-middle td {
 .bloco-1 .container, .bloco-2  .container, .bloco-3  .container, .bloco-4  .container{
   padding: unset;
 }
+
+.m-esq p{
+  margin-left: 25px;
+}

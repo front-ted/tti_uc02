@@ -451,5 +451,8 @@
     display: inline-block;
     max-width: 500px !important;
   }
+  .m-esq p{
+    margin-left: 25px;
+  }
 
 }

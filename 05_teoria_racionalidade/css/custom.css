@@ -136,7 +136,7 @@ body {
 
 .content {
     background-color: #e1eaf4;
-    border-radius: 60px;
+    border-radius: 30px;
     padding: 30px 28px 15px 30px;
     width: 70%;
     margin: 0 auto;
@@ -316,6 +316,7 @@ body {
         background: url(../img/bg-flutuante2.png) left 98% no-repeat fixed, url(../img/bg-flutuante1.png) 100% 13% no-repeat fixed, url(../img/bg.png) no-repeat fixed !important;
         background-size: 14%, 12%, cover !important;
     }
+
 }
 
 
