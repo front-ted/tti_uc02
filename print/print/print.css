@@ -444,15 +444,24 @@
     padding: unset;
   }
 
-  .citacao{
+  .citacao {
     margin-left: 4cm;
   }
+
   .pagina .img-fluxo {
     display: inline-block;
     max-width: 500px !important;
   }
-  .m-esq p{
+
+  .m-esq p {
     margin-left: 25px;
   }
 
+  .pagina figcaption {
+    display: block;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
 }
