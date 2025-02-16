@@ -447,6 +447,9 @@
   .citacao{
     margin-left: 4cm;
   }
-
+  .pagina .img-fluxo {
+    display: inline-block;
+    max-width: 500px !important;
+  }
 
 }
