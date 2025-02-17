@@ -173,6 +173,31 @@ body {
     color: #000 !important;
 }
 
+@media screen and (max-width:1440px) {
+    body {
+        background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
+            url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
+            url('../img/bg.png') no-repeat fixed !important;
+        background-size: 15%, 14%, cover !important;
+
+    }
+
+}
+
+@media screen and (max-width:1366px) {
+    body {
+        background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
+            url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
+            url('../img/bg.png') no-repeat fixed !important;
+        background-size: 13%, 12%, cover !important;
+
+    }
+
+}
+
+
+
+
 
 @media screen and (max-width:1024px) {
     body {
@@ -227,7 +252,7 @@ body {
     }
 
 
-    .painel-esquema{
+    .painel-esquema {
         transform: scale(0.95);
     }
 
