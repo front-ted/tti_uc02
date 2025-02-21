@@ -64,21 +64,6 @@ body {
     margin-top: 48%;
 }
 
-
-
-/* .botao-seg {
-    position: absolute;
-    margin-left: 29%;
-    margin-top: 23%;
-    border-color: #fc9d49;
-    color: #fc9d49;
-}
-
-.botao-psico.hvr-sweep-to-right:before {
-    background-color: #fc9d49;
-} */
-
-
 .painel-esquema {
     background: url('../img/painel02_1.png') no-repeat;
     width: 288px;
@@ -180,10 +165,10 @@ body {
 
 @media screen and (max-width:1440px) {
     body {
-        background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
+        background: 
             url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
             url('../img/bg.png') no-repeat fixed !important;
-        background-size: 15%, 14%, cover !important;
+        background-size:  14%, cover !important;
 
     }
 
@@ -191,10 +176,10 @@ body {
 
 @media screen and (max-width:1366px) {
     body {
-        background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
+        background:
             url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
             url('../img/bg.png') no-repeat fixed !important;
-        background-size: 13%, 12%, cover !important;
+        background-size:  12%, cover !important;
 
     }
 
