@@ -12,14 +12,24 @@ body {
 
 .card-2 {
     padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-3 {
     padding: 5px 1px 1px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-3 p {
     font-size: 0.9em;
+}
+
+.flip-card {
+    width: 315px;
 }
 
 .flip-card-inner {

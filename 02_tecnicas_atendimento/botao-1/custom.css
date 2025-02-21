@@ -82,7 +82,7 @@
 @media screen and (max-width: 1024px) {
 
     .bloco1 {
-        background: url('../img/bg.png') no-repeat fixed !important;
+        background: url('img/bg.png') no-repeat fixed !important;
         background-size: cover !important;
     }
     
@@ -98,7 +98,7 @@
     }
 
     .bloco1 {
-        background: url('../img/bg.png') no-repeat fixed !important;
+        background: url('img/bg.png') no-repeat fixed !important;
         background-size: cover !important;
     }
     

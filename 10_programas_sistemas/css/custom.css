@@ -1,5 +1,6 @@
 body {
-    background: url('../img/flutuante_1.png') left 13% no-repeat,
+    background:url('../img/img_1-400.png') left 3% no-repeat,
+        url('../img/flutuante_1.png') left 13% no-repeat,
         url('../img/flutuante_2.png') 96% 24% no-repeat,
         url('../img/img_2.png') 100% 45% no-repeat,
         url('../img/flutuante_3.png') 4% 53% no-repeat,
@@ -9,8 +10,10 @@ body {
         url('../img/flutuante_2.png') 96% 98% no-repeat,
 
         url('../img/bg.png') no-repeat fixed !important;
-    background-size: 13%, 13%, 20%, 13%, 20%, 13%, 13%, 13%, cover !important;
+    background-size: 13%, 13%, 13%, 20%, 13%, 20%, 13%, 13%, 13%, cover !important;
 }
+
+
 
 .bg-escuro .timeline p {
     color: #000;
@@ -171,7 +174,7 @@ body {
     background-color: #e1eaf4;
     border-radius: 30px;
     padding: 30px 15px 15px 40px;
-    width: 525px;
+    width: 700px;
     margin: 0 auto;
     text-align: left;
     position: relative;

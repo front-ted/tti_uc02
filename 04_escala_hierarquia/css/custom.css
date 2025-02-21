@@ -22,7 +22,7 @@ body {
     background: url('../img/painel01_1.png') no-repeat;
     width: 910px;
     height: 543px;
-    margin: auto;
+    margin-left: 10px;
     margin-bottom: 2%;
 }
 
@@ -33,31 +33,31 @@ body {
 
 .botao-fisio {
     position: absolute;
-    margin-left: 19%;
+    margin-left: -24%;
     margin-top: 48%;
 }
 
 .botao-seg {
     position: absolute;
-    margin-left: 8%;
+    margin-left: -15%;
     margin-top: 36%;
 }
 
 .botao-estima {
     position: absolute;
-    margin-left: 8%;
+    margin-left: 1%;
     margin-top: 14%;
 }
 
 .botao-amor {
     position: absolute;
-    margin-left: 2%;
+    margin-left: -7%;
     margin-top: 25%;
 }
 
 .botao-realizacao {
     position: absolute;
-    margin-left: 19%;
+    margin-left: 8%;
     margin-top: 4%;
 }
 
