@@ -386,6 +386,11 @@ body{
 
 @media screen and (max-width:1440px) {
     .painel-imobiliaria {
+
+        background: url('../img/capa1400.jpg') no-repeat;
+
+
+
         width: 100%;
         background-size: cover;
     }
@@ -421,12 +426,7 @@ body{
 
 }
 
-
-
-
-
-
-@media screen and (max-width:1400px) {
+/* @media screen and (max-width:1400px) {
     .painel-imobiliaria {
         background: url(../img/bg_capa.jpg) no-repeat;
         background-size: cover;
@@ -496,7 +496,7 @@ body{
         margin-left: 2%;
     }
 
-}
+} */
 
 @media screen and (min-width:1025px) {
     .painel-imobiliaria-mob {
