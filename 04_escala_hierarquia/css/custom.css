@@ -1,8 +1,9 @@
 body {
     background: 
+    url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
         url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
-    background-size: 15%, cover !important;
+    background-size: 15%, 15%, cover !important;
 
 }
 
