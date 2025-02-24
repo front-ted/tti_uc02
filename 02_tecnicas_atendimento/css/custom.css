@@ -1,12 +1,13 @@
 body{
     overflow-x: auto;
+    background: url('../img/bg_capa.jpg') no-repeat;
+    position: relative;
 }
 
 
-.painel-imobiliaria {
-    background: url('../img/bg_capa.jpg') no-repeat;
-    width: 1980px;
-    height: 1114px;
+.painel-imobiliaria {    
+    width: 100%;
+    height: calc(100vh - 100px);
     position: relative;
     object-fit: cover;
 }
@@ -20,8 +21,8 @@ body{
     width: 375px;
     height: 96px;
     position: absolute;
-    margin-top: 9%;
-    margin-left: 22%;
+    top: 17%;
+    left: 22%;
 }
 
 .botao-1:hover {
@@ -34,8 +35,8 @@ body{
     width: 382px;
     height: 69px;
     position: absolute;
-    margin-top: 18%;
-    margin-left: 44%;
+    top: 65%;
+    left: 24%;
 }
 
 .botao-2:hover {
@@ -48,8 +49,8 @@ body{
     width: 382px;
     height: 69px;
     position: absolute;
-    margin-top: 24%;
-    margin-left: 75%;
+    top: 50%;
+    left: 60%;
 }
 
 .botao-3:hover {
@@ -62,8 +63,8 @@ body{
     width: 311px;
     height: 70px;
     position: absolute;
-    margin-top: 44%;
-    margin-left: 77%;
+    top: 85%;
+    left: 60%;
 }
 
 .botao-4:hover {
@@ -76,8 +77,8 @@ body{
     width: 311px;
     height: 70px;
     position: absolute;
-    margin-top: 39%;
-    margin-left: 55%;
+    top: 80%;
+    left: 40%;
 }
 
 .botao-5:hover {
@@ -90,8 +91,8 @@ body{
     width: 375px;
     height: 95px;
     position: absolute;
-    margin-top: 40%;
-    margin-left: 16%;
+    top: 80%;
+    left: 10%;
 }
 
 .botao-6:hover {
@@ -104,8 +105,8 @@ body{
     width: 270px;
     height: 79px;
     position: absolute;
-    margin-top: 25%;
-    margin-left: 7%;
+    top: 49%;
+    left: 3%;
 }
 
 .botao-7:hover {
@@ -128,8 +129,8 @@ body{
     width: 772px;
     height: 241px;
     position: absolute;
-    margin-top: 4%;
-    margin-left: 58%;
+    top: 4%;
+    left: 58%;
 }
 
 .titulo h2 {
@@ -384,42 +385,45 @@ body{
 }
 
 @media screen and (max-width:1600px) {
-    .painel-imobiliaria {
-
+    body{
         background: url('../img/capa1400.jpg') no-repeat;
-
-
-
-        width: 1600px;
-        background-size: cover;
     }
 
-    .titulo {
-        background: url(../img/titulo.png);
-        width: 772px;
-        height: 241px;
-        position: absolute;
-        margin-top: 2%;
-        margin-left: 49%;
+    .titulo {       
+        top: 2%;
+        left: 49%;
         transform: scale(0.85);
     }
 
+    .botao-1{
+        top:11%;
+    }
+
+    .botao-2{
+        top:50%;
+    }
+
     .botao-3 {
-        background: url(../img/bt3.png) no-repeat;
-        width: 382px;
-        height: 69px;
-        position: absolute;
-        margin-top: 24%;
-        margin-left: 72%;
+        top: 40%;
+        left: 60%;
     }
 
     .botao-4 {
-        background: url(../img/bt4.png) no-repeat;
-        width: 311px;
-        height: 70px;
-        position: absolute;
-        margin-top: 53%;
-        margin-left: 77%;
+        top: 73%;
+        left: 67%;
+    } 
+
+    .botao-5{
+        top: 70%;
+        left: 45%;
+    }
+
+    .botao-6{
+        top:65%
+    }
+
+    .botao-7{
+        top:38%;
     }
 
 
@@ -428,41 +432,26 @@ body{
 
 
 @media screen and (max-width:1440px) {
-    .painel-imobiliaria {
-
-        background: url('../img/capa1400.jpg') no-repeat;
-        width: 100%;
-        background-size: cover;
-    }
-
-    .titulo {
-        background: url(../img/titulo.png);
-        width: 772px;
-        height: 241px;
-        position: absolute;
-        margin-top: 2%;
-        margin-left: 49%;
+    
+    .titulo {       
+        top: 2%;
+        left: 49%;
         transform: scale(0.85);
     }
 
+    
+
     .botao-3 {
-        background: url(../img/bt3.png) no-repeat;
-        width: 382px;
-        height: 69px;
-        position: absolute;
-        margin-top: 24%;
-        margin-left: 72%;
+        left: 70%;
     }
 
     .botao-4 {
-        background: url(../img/bt4.png) no-repeat;
-        width: 311px;
-        height: 70px;
-        position: absolute;
-        margin-top: 53%;
-        margin-left: 77%;
-    }
+        left: 75%;
+    } 
 
+    .botao-5{
+        left: 50%;
+    }
 
 } 
 
