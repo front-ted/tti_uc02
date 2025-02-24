@@ -383,15 +383,14 @@ body{
 
 }
 
-
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1600px) {
     .painel-imobiliaria {
 
         background: url('../img/capa1400.jpg') no-repeat;
 
 
 
-        width: 100%;
+        width: 1600px;
         background-size: cover;
     }
 
@@ -425,6 +424,47 @@ body{
 
 
 }
+
+
+
+@media screen and (max-width:1440px) {
+    .painel-imobiliaria {
+
+        background: url('../img/capa1400.jpg') no-repeat;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .titulo {
+        background: url(../img/titulo.png);
+        width: 772px;
+        height: 241px;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 49%;
+        transform: scale(0.85);
+    }
+
+    .botao-3 {
+        background: url(../img/bt3.png) no-repeat;
+        width: 382px;
+        height: 69px;
+        position: absolute;
+        margin-top: 24%;
+        margin-left: 72%;
+    }
+
+    .botao-4 {
+        background: url(../img/bt4.png) no-repeat;
+        width: 311px;
+        height: 70px;
+        position: absolute;
+        margin-top: 53%;
+        margin-left: 77%;
+    }
+
+
+} 
 
 /* @media screen and (max-width:1400px) {
     .painel-imobiliaria {
