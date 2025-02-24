@@ -1,7 +1,14 @@
+body{
+    overflow-x: auto;
+}
+
+
 .painel-imobiliaria {
     background: url('../img/bg_capa.jpg') no-repeat;
-    width: 1920px;
-    height: 1080px;
+    width: 1980px;
+    height: 1114px;
+    position: relative;
+    object-fit: cover;
 }
 
 .botao-x {
@@ -379,13 +386,8 @@
 
 @media screen and (max-width:1440px) {
     .painel-imobiliaria {
-        background: url(../img/bg_capa.jpg) no-repeat;
+        width: 100%;
         background-size: cover;
-        transform: unset;
-        margin-top: 0%;
-        overflow-x: hidden !important;
-        overflow-y: hidden !important;
-
     }
 
     .titulo {

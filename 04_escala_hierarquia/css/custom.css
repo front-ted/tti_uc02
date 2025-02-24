@@ -7,10 +7,6 @@ body {
 
 }
 
-
-/* url('../img/bg-flutuante01.png') left 37% no-repeat fixed, */
-
-
 .letra-menor {
     font-size: 0.7em;
 }
@@ -167,9 +163,10 @@ body {
 @media screen and (max-width:1440px) {
     body {
         background: 
+        url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
             url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
             url('../img/bg.png') no-repeat fixed !important;
-        background-size:  14%, cover !important;
+        background-size: 14%, 14%, cover !important;
 
     }
 
@@ -178,9 +175,10 @@ body {
 @media screen and (max-width:1366px) {
     body {
         background:
+            url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
             url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
             url('../img/bg.png') no-repeat fixed !important;
-        background-size:  12%, cover !important;
+        background-size: 12%, 12%, cover !important;
 
     }
 
