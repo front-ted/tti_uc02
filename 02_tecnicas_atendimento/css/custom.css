@@ -1,7 +1,8 @@
 .painel-imobiliaria {
     background: url('../img/bg_capa.jpg') no-repeat;
     width: 1920px;
-    height: 1080px;
+    height: 1081px;
+    background-size: 100%;
 }
 
 .botao-x {
@@ -376,14 +377,7 @@
 
 }
 
-@media screen and (max-width:2560px) {
-    .painel-imobiliaria {
-        background: url(../img/bg_capa.jpg) no-repeat;
-        background-size: cover;
-        width: 2560px;
-        height: 1188px;
-    }
-}
+
 
 
 @media screen and (max-width:1440px) {
