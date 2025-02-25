@@ -100,7 +100,12 @@ body {
 }
 
 .text.generation-z {
-    padding: 3px 10px 8px 10px;
+    padding: 3px 10px 8px 36px;
+}
+
+.text.generation-z h4{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .text h4 {
@@ -293,7 +298,7 @@ body {
         height: 320px;
     }
 
-    .bloco-paralax, .bloco-paralax-1, .bloco-paralax-2{
+    .bloco-paralax, .bloco-paralax-1, .bloco-paralax-2,.bloco-paralax1{
         display: none;
     }
 

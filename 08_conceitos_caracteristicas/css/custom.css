@@ -478,7 +478,7 @@ hr:not([size]) {
     }
 
     .mandamentos {
-        transform: scale(0.78);
+        transform: scale(0.75);
         margin-left: -23%;
         margin-top: -20%;
         margin-bottom: -22%;

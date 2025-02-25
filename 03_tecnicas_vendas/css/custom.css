@@ -179,6 +179,57 @@
     color: #000;
 }
 
+.bg-podcast1 {
+   
+    width: 60%;
+    
+}
+
+.audio-player1::before {
+    content: '';
+    background: url('../podcast/personagem.svg') no-repeat;
+    height: 179px;
+    width: 185px;
+    position: absolute;
+    left: -32px;
+    bottom: -41px;
+}
+
+.audio-player1::after {
+    content: '';
+    background: none;
+    height: 188px;
+    width: 193px;
+    position: absolute;
+    right: -32px;
+    bottom: -11px;
+    z-index: 2;
+}
+
+.audio-player2::before {
+    content: '';
+    background: url('../podcast/personagem2.svg') no-repeat;
+    height: 179px;
+    width: 185px;
+    position: absolute;
+    left: -32px;
+    bottom: -11px;
+}
+
+.audio-player2::after {
+    content: '';
+    background: url('../podcast/personagem3.svg') no-repeat;
+    height: 188px;
+    width: 193px;
+    position: absolute;
+    right: -60px;
+    bottom: -11px;
+    z-index: 2;
+}
+
+
+
+
 @media screen and (max-width:1440px) {
 
     .bloco3 {

@@ -1,5 +1,6 @@
 body {
-    background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
+    background: 
+    url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
         url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
         url('../img/bg.png') no-repeat fixed !important;
     background-size: 15%, 15%, cover !important;
@@ -22,7 +23,7 @@ body {
     background: url('../img/painel01_1.png') no-repeat;
     width: 910px;
     height: 543px;
-    margin: auto;
+    margin-left: 10px;
     margin-bottom: 2%;
 }
 
@@ -31,48 +32,34 @@ body {
     width: 250px;
 }
 
-.botao-fisio {
+.botao-realizacao {
     position: absolute;
-    margin-left: 19%;
-    margin-top: 48%;
-}
-
-.botao-seg {
-    position: absolute;
-    margin-left: 8%;
-    margin-top: 36%;
+    margin-left: 16%;
+    margin-top: 4%;
 }
 
 .botao-estima {
     position: absolute;
-    margin-left: 8%;
+    margin-left: 9%;
     margin-top: 14%;
 }
-
 .botao-amor {
     position: absolute;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-top: 25%;
 }
 
-.botao-realizacao {
+.botao-seg {
     position: absolute;
-    margin-left: 19%;
-    margin-top: 4%;
+    margin-left: -7%;
+    margin-top: 36%;
 }
 
-/* .botao-seg {
+.botao-fisio {
     position: absolute;
-    margin-left: 29%;
-    margin-top: 23%;
-    border-color: #fc9d49;
-    color: #fc9d49;
+    margin-left: -16%;
+    margin-top: 48%;
 }
-
-.botao-psico.hvr-sweep-to-right:before {
-    background-color: #fc9d49;
-} */
-
 
 .painel-esquema {
     background: url('../img/painel02_1.png') no-repeat;
@@ -175,10 +162,11 @@ body {
 
 @media screen and (max-width:1440px) {
     body {
-        background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
+        background: 
+        url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
             url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
             url('../img/bg.png') no-repeat fixed !important;
-        background-size: 15%, 14%, cover !important;
+        background-size: 14%, 14%, cover !important;
 
     }
 
@@ -186,10 +174,11 @@ body {
 
 @media screen and (max-width:1366px) {
     body {
-        background: url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
+        background:
+            url('../img/bg-flutuante01.png') left 37% no-repeat fixed,
             url('../img/bg-flutuante02.png') 100% 65% no-repeat fixed,
             url('../img/bg.png') no-repeat fixed !important;
-        background-size: 13%, 12%, cover !important;
+        background-size: 12%, 12%, cover !important;
 
     }
 
