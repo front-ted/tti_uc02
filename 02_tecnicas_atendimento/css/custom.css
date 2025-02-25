@@ -376,6 +376,15 @@
 
 }
 
+@media screen and (max-width:2560px) {
+    .painel-imobiliaria {
+        background: url(../img/bg_capa.jpg) no-repeat;
+        background-size: cover;
+        width: 2560px;
+        height: 1188px;
+    }
+}
+
 
 @media screen and (max-width:1440px) {
     .painel-imobiliaria {
@@ -418,10 +427,6 @@
 
 
 }
-
-
-
-
 
 
 @media screen and (max-width:1400px) {
@@ -593,14 +598,6 @@
         left: 20px;
     }
 
-
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width: 769px) {}
@@ -727,7 +724,8 @@
     .botao-7-mob {
         margin-top: 475%;
     }
-    .botao-6-mob{
+
+    .botao-6-mob {
         margin-top: 386%;
         margin-left: 10%;
     }
