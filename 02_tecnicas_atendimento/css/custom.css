@@ -1,7 +1,7 @@
 .painel-imobiliaria {
     background: url('../img/bg_capa.jpg') no-repeat;
     width: 1920px;
-    height: 1081px;
+    height: 1045px;
     background-size: 100%;
 }
 
@@ -381,13 +381,12 @@
 
 @media screen and (max-width:1440px) {
     .painel-imobiliaria {
-        background: url(../img/bg_capa.jpg) no-repeat;
-        background-size: cover;
+        background: url('../img/capa1440.jpg') no-repeat;
         transform: unset;
         margin-top: 0%;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
-
+        height: 840px;
     }
 
     .titulo {
@@ -405,8 +404,8 @@
         width: 382px;
         height: 69px;
         position: absolute;
-        margin-top: 24%;
-        margin-left: 70%;
+        margin-top: 27%;
+        margin-left: 68%;
     }
 
     .botao-4 {
@@ -418,17 +417,27 @@
         margin-left: 74%;
     }
 
+    .botao-7 {
+        margin-left: 1%;
+        margin-top: 29%;
+    }
+    .btn-tema_pagina,
+    .voltar-topo {
+        right: 15px;
+    }
+    .botao-x {
+        transform: scale(0.85);
+    }
 }
 
 
 @media screen and (max-width:1400px) {
     .painel-imobiliaria {
-        background: url(../img/bg_capa.jpg) no-repeat;
-        background-size: cover;
-        transform: unset;
+        background: url('../img/capa1400.jpg') no-repeat;
         margin-top: 0%;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
+        height: 990px;
     }
 
     .botao-6 {
@@ -436,8 +445,8 @@
         width: 375px;
         height: 95px;
         position: absolute;
-        margin-top: 40%;
-        margin-left: 21%;
+        margin-top: 50%;
+        margin-left: 17%;
     }
 
     .botao-7 {
@@ -445,26 +454,25 @@
         width: 270px;
         height: 79px;
         position: absolute;
-        margin-top: 35%;
+        margin-top: 28%;
         margin-left: 2%;
     }
 
     body {
         overflow-x: hidden;
     }
-
 }
 
 
 
 @media screen and (max-width:1366px) {
     .painel-imobiliaria {
-        background: url(../img/bg_capa.jpg) no-repeat;
-        background-size: cover;
+        background: url('../img/capa1366.jpg') no-repeat;
         transform: unset;
         margin-top: 0%;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
+        height: 854px;
     }
 
     .botao-3 {
@@ -472,8 +480,13 @@
         width: 382px;
         height: 69px;
         position: absolute;
-        margin-top: 24%;
+        margin-top: 27%;
         margin-left: 70%;
+    }
+
+    .botao-4 {
+        margin-top: 50%;
+        margin-left: 72%;
     }
 
     .botao-6 {
@@ -490,12 +503,16 @@
         width: 270px;
         height: 79px;
         position: absolute;
-        margin-top: 35%;
+        margin-top: 27%;
         margin-left: 2%;
     }
 
     body {
         overflow-y: auto;
+    }
+
+    .botao-x {
+        transform: scale(0.85);
     }
 
 }
@@ -1048,11 +1065,11 @@
         content: '';
     }
 
-   .titulo-mob {
+    .titulo-mob {
         background-size: 100%;
         margin-left: unset;
         width: 372px;
         height: 241px;
-    } 
+    }
 
 }
