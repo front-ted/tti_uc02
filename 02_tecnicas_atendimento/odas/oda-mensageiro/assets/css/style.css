@@ -1,0 +1,503 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('../fonts/Figtree-VariableFont_wght.ttf') format('truetype'),
+         url('../fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 700; 
+    font-style: normal;
+}
+body {
+    background-color: #f2f2f2 !important;
+
+}
+#oda-mensageiro {
+    max-width: 950px;
+  margin: auto;
+    margin-bottom: auto;
+  margin-bottom: 30px;
+
+}
+.body{
+    background-color: #072a29 !important;
+    width: 700px;
+}
+
+.centralizar{
+
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.body-obj-whats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif !important;
+    width: 100%;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.container-whats {
+    width: 100%;
+}
+
+.col-iniciar {
+    background: linear-gradient(180deg, rgba(236, 186, 182, 0.5) 0%, rgba(209, 232, 226, 0.8) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #B0B0B0;
+}
+
+.btn-iniciar {
+    font-size: 23px;
+    color: #ffefef;
+    font-family: "Figtree", sans-serif;
+    font-weight: bold;
+}
+
+
+/************************************** Container do chat ************************************/
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    background-color: linear-gradient(180deg, rgba(236, 186, 182, 0.5) 0%, rgba(209, 232, 226, 0.8) 100%);
+    height: 100%;
+}
+
+.figtree {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.modal-custom-backdrop .modal-backdrop {
+    background-color: transparent !important;
+}
+
+.modal-custom-width .modal-dialog {
+    max-width: 400px;
+    width: auto;
+}
+
+.modal-custom-width .modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.custom-carousel .carousel-inner img {
+    width: auto;
+    max-width: 100%;
+}
+
+.btn.btn-ampliar {
+    width: 79%;
+}
+
+.btn-ampliar img {
+    transition: 0.3s ease;
+    border-radius: 20px;
+}
+
+
+.btn-ampliar:hover img {
+    content: url('../img/btn-imagens-hover.png');
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.carousel-arrow {
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/************************************** Cabeçalho do chat ************************************/
+.chat-header {
+    background: #B0372D;
+    color: white;
+    padding: 6px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-avatar {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-title {
+    font-weight: bold;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    padding: 14px;
+    overflow-y: auto;
+    background-color: #ece5dd;
+    height: 350px;
+    background-image: url('../img/bg.png');
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+.bg-historico {
+    height: 600px;
+}
+
+.icone-cam {
+    text-align: right;
+    margin-inline: 8px;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 16px;
+    border-radius: 40.2px;
+    max-width: 95%;
+    font-size: 16px;
+
+}
+
+.message.sent {
+    background-color: #ffffff;
+    text-align: left;
+    margin-right: auto;
+}
+
+.cliente{
+    border-radius: 0px 60px 60px 60px;
+}
+
+.message.received {
+    background-color: #BFE5E5;
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+
+.received {
+	border-radius: 60px 0px 60px 60px;
+}
+
+
+/************************************** Input de respostas ************************************/
+.chat-input {
+    display: flex;
+    background-color: white;
+    padding: 21px;
+    flex-direction: column;
+}
+
+.btn-opcao-chat {
+    background: #BFE5E5;
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+    border-radius: 60px 0px 60px 60px;
+    margin: 6px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 1, 0.61);
+    transition: transform 0.2s ease;
+    padding: 18px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn-opcao-chat:hover {
+    transform: scale(0.98);
+    background-color: #6CCCCC;
+}
+
+/************************************** Container flexível para o botão e o ícone ************************************/
+.btn-enviar-col {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/************************************** Modal de feedback ************************************/
+.body-modal-chat {
+    background-color: #ECBAB6;
+    padding: 20px;
+    border-radius: 34px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 1, 0.61);
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icone-modal {
+    text-align: center;
+    margin: 3px;
+}
+
+.blur-background {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+
+/************************************** Histórico de conversas ************************************/
+.chat-history {
+    background-color: #358080;
+    color: white;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.title-historico {
+    font-size: 23px;
+    margin: 17.5px;
+    font-weight: bold;
+    font-family: "Figtree", sans-serif;
+}
+
+/************************************** Estilo para o histórico de mensagens ************************************/
+.bg-historico {
+    padding: 15px;
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+/************************************** Divs individuais para cada mensagem no histórico ************************************/
+.div1-historico,
+.div2-historico,
+.div3-historico,
+.div4-historico,
+.div5-historico,
+.div6-historico {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+.div1-historico {
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    padding: 9px;
+    font-weight: bold;
+}
+
+.img-div3-historico {
+    width: 55px !important;
+    height: 16px !important;
+}
+
+.img-div4-historico {
+    width: 47px !important;
+    height: 22px !important;
+}
+
+.h-img-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.h-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.h-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.h-nome {
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+}
+
+.h-horario {
+    font-size: 15px;
+    color: #959595;
+}
+
+.h-mensagem {
+    font-size: 15px;
+    color: #737373;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.h-destaque {
+    color: black;
+}
+
+/************************************** Container da barra de pesquisa ************************************/
+.search-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 99%;
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.search-input:focus {
+    border-color: #128C7E;
+    box-shadow: 0px 0px 5px rgba(18, 140, 126, 0.4);
+}
+
+.footer-historico {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #EEEEEE;
+    align-items: center;
+}
+
+/* Responsividade ************************************/
+@media (max-width: 760px) {
+    .body-obj-whats {
+        width: 100%;
+        padding: 1px;
+        border-radius: 20px;
+    }
+
+    .historico-conversas {
+        display: none;
+    }
+
+    .chat-header {
+        justify-content: center;
+    }
+
+    #coluna-whats {
+        width: 100% !important;
+        display: block !important;
+    }
+
+    #coluna-inicial {
+        display: none;
+    }
+
+    .body-obj-whats {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .container-whats {
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .btn.btn-ampliar {
+        width: 41%;
+    }
+}
+
+/* adaptacao classes bootstrap 5 para o 3  */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    border: none;
+}
+
+.feedback-modal .modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.feedback-modal .modal-dialog {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-backdrop {
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog-centered .modal-dialog {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
